@@ -1,0 +1,119 @@
+- title: Koi Gate
+  id: a103867f-7f21-467c-9208-5ee7149820cb
+  img: koi-gates.webp
+  url: habanero/koi-gates
+  provider: Habanero
+
+- title: Hot Hot Fruit
+  id: e5a04f51-6d20-4504-91bc-d17656d2e542
+  img: hot-hot-fruit.webp
+  url: habanero/hot-hot-fruit
+  provider: Habanero
+
+- title: Orbs of Atlantis
+  id: 4ca3dc7b-bac6-450c-ac0e-c6371e9175a8
+  img: orbs-of-atlantis.webp
+  url: habanero/orbs-atlantis
+  provider: Habanero
+
+- title: Candy Tower
+  id: d1a5dd9a-2b2f-4762-8ea8-dba24f8d3b39
+  img: candy-tower.webp
+  url: habanero/candy-tower
+  provider: Habanero 
+
+- title: Mystic Fortune Deluxe
+  id: b23828b7-fb27-4802-a483-08e315a8700b
+  img: mystic-fortune-deluxe.webp
+  url: habanero/mystic-fortune-deluxe
+  provider: Habanero 
+
+- title: Egyptian Dreams Deluxe
+  id: 8bc1773e-a78b-420a-8063-2aad63d7ef3f
+  img: egyptian-dreams-deluxe.webp
+  url: habanero/egyptian-dreams-deluxe
+  provider: Habanero
+
+- title: London Hunter
+  id: 20b52291-d316-4521-817b-f28863042bf1
+  img: london-hunter.webp
+  url: habanero/london-hunter
+  provider: Habanero
+
+- title: Gold Rush
+  id: fb9ccb90-bb6e-485e-9791-0d3d58ca8ce0
+  img: gold-rush.webp
+  url: habanero/gold-rush
+  provider: Habanero
+
+- title: Fire Rooster
+  id: 271e3ca3-d219-41d3-a868-bef50d00c5df
+  img: fire-rooster.webp
+  url: habanero/fire-rooster
+  provider: Habanero
+
+- title: Ways of Fortune
+  id: 476fa6fb-63b0-4bfb-a42a-53899023c081
+  img: ways-of-fortune.webp
+  url: habanero/fortune-ways
+  provider: Habanero
+
+- title: Totem Towers
+  img: totem-towers.webp
+  url: habanero/totem-towers
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=e231663c-6033-4441-a8f7-da3489ba3a46&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero
+  
+- title: Cake Valley
+  img: cake-valley.webp
+  url: habanero/cake-valley
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=4c0fcbcd-d41f-4adf-967b-c4a64a5b42be&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero
+  
+- title: Before Time Runs Out
+  img: before-time-runs-out.webp
+  url: habanero/before-time-runs-out
+  permalink: https://app-e.insvr.com/go.ashx?brandid=0545ad86-7e98-e711-a94a-000d3a24d7e6&keyname=SGBeforeTimeRunsOut&mode=fun&locale=id&ifrm=1
+  provider: Habanero
+  
+- title: Return To The Feature
+  img: return-to-the-feature.webp
+  url: habanero/return-to-the-feature
+  permalink: https://app-e.insvr.com/go.ashx?brandid=0545ad86-7e98-e711-a94a-000d3a24d7e6&keyname=SGReturnToTheFeature&mode=fun&locale=id&ifrm=1
+  provider: Habanero
+  
+- title: Tuk Tuk Thailand
+  img: tuk-tuk-thailand.webp
+  url: habanero/tuk-tuk-thailand
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=27c3554a-c65f-4d79-98c9-0d939fbc5898&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero
+  
+- title: Four Divine Beasts
+  img: four-divine-beasts.webp
+  url: habanero/four-divine-beasts
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=c759172e-b886-4fae-9414-c4ca2326b79f&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero
+  
+- title: Wild Trucks
+  img: wild-trucks.webp
+  url: habanero/wild-trucks
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=89d47514-abaf-4056-a5e4-69ec1e67693f&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero
+  
+- title: Prost
+  img: prost.webp
+  url: habanero/prost
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=23763e80-4b80-4564-b108-458359a9e9b7&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero
+
+- title: Fortune Dogs
+  img: fortune-dogs.webp
+  url: habanero/fortune-dogs
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=4dd05e6b-c91d-437f-9b2f-522e98949669&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero
+
+- title: Hot Hot Halloween
+  img: hot-hot-halloween.webp
+  url: habanero/hot-hot-halloween
+  permalink: https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&brandgameid=12344d06-b2c3-4711-babd-2d8aab80bcbc&mode=fun&locale=id&ifrm=1&lobbyurl=pm-closeGame
+  provider: Habanero

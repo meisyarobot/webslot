@@ -1,0 +1,57 @@
+title:          L154 Gaming
+description:    "Stop bermain judi slot. Mainkan permainan slot demo gratis tanpa deposit atau memakai uang asli."
+baseurl:        "/"
+url:            "https://l154gamer.github.io/"
+markdown: kramdown
+future: true
+encoding: UTF-8
+locales: ["id", "en"]
+language_default: id
+include:
+  - _pages
+plugins:
+  - jekyll-redirect-from
+redirect_from:
+  json: false
+whitelist:
+  - jekyll-redirect-from  
+
+collections:
+  id:
+    output: true
+    permalink: /:collection/:slug
+  en:
+    output: true
+    permalink: /:collection/:slug
+  ru:
+    output: true
+    permalink: /:collection/:slug
+  lobby:
+    output: true
+    permalink: /:collection/:slug
+
+
+defaults:
+  # default id
+  - values:
+      locale: id
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"      
+  - scope: 
+      path: _id/**
+    values: 
+      locale: id
+  - scope: 
+      path: _en/**
+    values: 
+      locale: en
+  - scope: 
+      path: _ru/**
+    values: 
+      locale: ru      
+  - scope: 
+      path: _lobby/**
+

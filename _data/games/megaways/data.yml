@@ -1,0 +1,457 @@
+# Pragmatic Play
+
+- title: Revenge of Loki Megaways 
+  gameid: 
+  img: pragmatic-play/revenge-loki-megaways.webp
+  type: pragmaticplay
+  disable: disable
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=
+  provider: Pragmatic Play
+
+- title: Barnyard Megahays Megaways
+  gameid: vswaysmegahays
+  img: pragmatic-play/vswaysmegahays.webp
+  type: pragmaticplay
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysmegahays
+  provider: Pragmatic Play
+
+- title: Casino Heist Megaways 
+  gameid: vswayscheist
+  img: pragmatic-play/casino-heist-megaways.webp
+  type: pragmaticplay
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayscheist
+  provider: Pragmatic Play
+
+- title: Mr. Toad Gold Megaways
+  gameid: vswaystgold
+  img: pragmatic-play/mr-toad-gold-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaystgold
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Pompeii Megareels Megaways
+  gameid: vswaysmegareel
+  img: pragmatic-play/pompeii-megareels-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysmegareel
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Tiki Hut Megaways
+  gameid: vsprgwaysth
+  img: pragmatic-play/tiki-hut-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vsprgwaysth
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: El Dorado The City of Gold Megaways
+  gameid: vswaysdorado
+  img: pragmatic-play/el-dorado-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysdorado
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Beware The Deep Megaways
+  gameid: vswaysbewaretd
+  img: pragmatic-play/beware-the-deep-megaways.webp
+  type: pragmaticplay
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysbewaretd
+  provider: Pragmatic Play
+
+- title: Wild West Gold Megaways
+  gameid: vswayswildwest
+  img: pragmatic-play/megaways-wwg.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayswildwest
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Aztec King Megaways
+  gameid: vswaysaztecking
+  img: pragmatic-play/aztec-king-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysaztecking
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Mammoth Gold Megaways
+  gameid: vs20mammoth
+  img: pragmatic-play/mammoth-gold.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vs20mammoth
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Power of Thor Megaways
+  gameid: vswayshammthor
+  img: pragmatic-play/megaways-thor.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayshammthor
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: 5 Rabbits Megaways
+  gameid: vswaysrabbits
+  img: pragmatic-play/megaways-rabbits.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysrabbits
+  type: pragmaticplay
+  provider: Pragmatic Play 
+
+- title: 5 Lions Megaways
+  gameid: vswayslions
+  img: pragmatic-play/megaways-lions.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayslions
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Extra Juicy Megaways
+  gameid: vswaysxjuicy
+  img: pragmatic-play/megaways-extra-juicy.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysxjuicy
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Great Rhino Megaways
+  gameid: vswaysrhino
+  img: pragmatic-play/great-rhino-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysrhino
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Crystal Caverns Megaways
+  gameid: vswayscryscav
+  img: pragmatic-play/crystal-caverns.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayscryscav
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: The Dog House Megaways
+  gameid: vswaysdogs
+  img: pragmatic-play/megaways-dog-house.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysdogs
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: The Dog Mansion Megaways
+  gameid: vswaysdogsh
+  img: pragmatic-play/the-dog-mansion-megaways.webp
+  type: pragmaticplay
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysdogsh
+  provider: Pragmatic Play
+
+- title: The Dog Bank Megaways
+  gameid: vswaysdogbank
+  img: pragmatic-play/the-dog-bank-megaways.webp
+  type: pragmaticplay
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysdogbank
+  provider: Pragmatic Play
+
+- title: Legend of Heroes Megaways
+  gameid: vswayslofhero
+  img: pragmatic-play/megaways-legend-of-heroes.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayslofhero
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Rise of Samurai Megaways
+  gameid: vswayssamurai
+  img: pragmatic-play/megaways-risesamurai.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayssamurai
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Elemental Gems Megaways
+  gameid: vswayselements
+  img: pragmatic-play/elemental-gems-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayselements
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Lucky Fishing Megaways
+  gameid: vswaysluckyfish
+  img: pragmatic-play/lucky-fishing-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysluckyfish
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Madame Destiny Megaways
+  gameid: vswaysmadame
+  img: pragmatic-play/madame-destiny-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysmadame
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Lady D Megaways 
+  symbol: vswaysladydh
+  img: pragmatic-play/lady-d-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysladydh
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Wild Wild Riches Megaways
+  gameid: vswayswwriches
+  img: pragmatic-play/wild-wild-riches-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayswwriches
+  type: pragmaticplay
+  provider: Pragmatic Play 
+
+- title: Spin & Score Megaways
+  gameid: vswaysfrywld
+  img: pragmatic-play/spin-score-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysfrywld
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Buffalo King Megaways
+  gameid: vswaysbufking
+  img: pragmatic-play/buffalo-king-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysbufking
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Wild Celebrity Bus Megaways
+  gameid: vswaysrsm
+  img: pragmatic-play/wild-celebrity-bus-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysrsm
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Old Gold Miner Megaways
+  gameid: vswaysoldminer
+  img: pragmatic-play/old-gold-miner-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysoldminer
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Chilli Heat Megaways
+  gameid: vswayschilheat
+  img: pragmatic-play/chilli-heat-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayschilheat
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Power of Merlin Megaways 
+  gameid: vswayspowzeus
+  img: pragmatic-play/power-of-merlin-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayspowzeus
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Starz Megaways 
+  gameid: vs117649starz
+  img: pragmatic-play/starz-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vs117649starz
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Madame Mystique Megaways 
+  gameid: vswaysmadameh
+  img: pragmatic-play/madame-mystique-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysmadameh
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Curse of The Werewolf Megaways 
+  gameid: vswayswerewolf
+  img: pragmatic-play/curse-of-the-werewolf-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayswerewolf
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: A Christmas Carol Megaways 
+  gameid: vs20xmascarol
+  img: pragmatic-play/christmas-carol-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vs20xmascarol
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Muertos Multiplier Megaways 
+  gameid: vs20muertos
+  img: pragmatic-play/muertos-multiplier-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vs20muertos
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Fury of Odin Megaways 
+  gameid: vswaysfuryodin
+  img: pragmatic-play/fury-of-odin-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysfuryodin
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: Blazing Wilds Megaways
+  gameid: vswaysfirewmw
+  img: pragmatic-play/blazing-wilds-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysfirewmw
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: MBS Heist Megaways
+  gameid: vswaysmbslions
+  img: pragmatic-play/mbs-heist-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysmbslions
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+- title: 5 Frozen Charms Megaways
+  gameid: vswayscharms
+  img: pragmatic-play/5frozen-charms-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswayscharms
+  type: pragmaticplay
+  provider: Pragmatic Play
+
+
+# Reel Kingdom
+- title: Floating Dragon Megaways
+  gameid: vswaysfltdrg
+  img: pragmatic-play/floating-dragon.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysfltdrg
+  type: reelkingdom
+  provider: Reel Kingdom
+
+- title: Big Bass Bonanza Megaways
+  gameid: vswaysbbb
+  img: pragmatic-play/big-bass-bonanza-megaways.webp
+  url: https://d3pvfi6m7bxu71.cloudfront.net/gs2c/openGame.do?jurisdiction=99&lang=ID&cur=IDR&gameSymbol=vswaysbbb
+  type: reelkingdom
+  provider: Reel Kingdom
+
+
+# iSoftBet
+- title: Olympus Zeus Megaways
+  gameid: 
+  img: isoftbet/olympus-zeus.webp
+  url: 
+  type: isoftbet
+  disable: disable
+  provider: iSoftBet
+
+- title: Gold digger Megaways
+  gameid: 
+  img: isoftbet/gold-digger.webp
+  url: https://stage-game-launcher-lux.isoftbet.com/1015/200514?mode=0&turboMode=1&background=1&cur=IDR&lang=en&enableConsole=false
+  type: isoftbet
+  provider: iSoftBet
+
+- title: Tales of Silver Megaways
+  gameid: 
+  img: isoftbet/tales-of-silver.webp
+  url: https://stage-game-launcher-lux.isoftbet.com/1015/200771?identifier=pulse_tales_of_silver_mw&lang=EN&cur=IDR&background=1&mode=0&
+  type: isoftbet
+  provider: iSoftBet
+
+- title: Tyrant King Megaways
+  gameid: 
+  img: isoftbet/tyrant-king.webp
+  url: https://stage-game-launcher-lux.isoftbet.com/1015/200521?identifier=pulse_tyrant_king_megaways&lang=EN&cur=IDR&background=1&mode=0&
+  type: isoftbet
+  provider: iSoftBet
+
+
+# Playtech
+- title: Sahara Riches Megaways
+  gameid: 
+  img: playtech/sahara-riches.webp
+  url: https://gamelauncher-uu-pop-stg.playtechone.com/launcher?game=gpas_mgccsahara_pop&casino=playtechhorizon&clientplatform=web&clienttype=casino&real=0&currency=IDR&language=id
+  type: playtech
+  provider: Playtech
+
+- title: Buffalo Blitz Megaways
+  gameid: 
+  img: playtech/buffalo-blitz.webp
+  url: https://gamelauncher-uu-pop-stg.playtechone.com/launcher?casino=playtechhorizon&clientplatform=web&clienttype=casino&real=0&currency=IDR&language=id&game=gpas_bbmways_pop
+  type: playtech
+  provider: Playtech
+
+
+# YGGDrasil
+- title: Big Bucks Bandits Megaways
+  gameid: 1025
+  img: yggdrasil/big-bucks-bandits.webp
+  url: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=1025&org=demo&lang=id&currency=IDR&channel=mobile&home=https://as-saadah.github.io/yggdrasil
+  type: yggdrasil
+  provider: YGGDrasil
+
+- title: Atlantis Megaways
+  gameid: 1020
+  img: yggdrasil/atlantis-megaways.webp
+  url: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=1020&org=demo&lang=id&currency=IDR&channel=mobile&home=https://as-saadah.github.io/yggdrasil
+  type: yggdrasil
+  provider: YGGDrasil
+
+- title: Odin Infinity Reels Megaways
+  gameid: 1033
+  img: yggdrasil/odin-megaways.webp
+  url: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=1033&org=demo&lang=id&currency=IDR&channel=mobile&home=https://as-saadah.github.io/yggdrasil
+  type: yggdrasil
+  provider: YGGDrasil
+
+
+# Bgaming
+- title: Aztec Magic Megaways
+  gameid: 
+  img: bgaming/aztec-magic-megaways.webp
+  url: https://bgaming-network.com/play/AztecMagicMegaways/FUN?server=demo
+  type: bgaming
+  provider: BGaming
+
+
+# Red Tiger
+- title: What The Fox Megaways 
+  gameid: 
+  img: redtiger/what-the-fox-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/WhatTheFoxMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger 
+
+- title: Pirates' Plenty Megaways 
+  gameid: 
+  img: redtiger/pirates-plenty-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/PiratesPlentyMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger
+
+- title: Dynamite Riches Megaways 
+  gameid: 
+  img: redtiger/dynamite-riches-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/DynamiteRichesMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger 
+
+- title: Leprechaun's Magic Megaways 
+  gameid: 
+  img: redtiger/leprechauns-magic-megaways.webp
+  url: 
+  type: redtiger
+  disable: disable
+  provider: Red Tiger 
+
+- title: Golden Leprechaun Megaways 
+  gameid: 
+  img: redtiger/golden-leprechaun-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/LeprechaunsMagicMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger 
+
+- title: Egypt Megaways 
+  gameid: 
+  img: redtiger/egypt-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/EgyptMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger 
+
+- title: Gonzo's Quest Megaways 
+  gameid: 
+  img: redtiger/gonzos-quest-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/GonzosQuestMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger 
+
+- title: Risque Megaways 
+  gameid: 
+  img: redtiger/risque-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/RisqueMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger 
+
+- title: Blood Suckers Megaways 
+  gameid: 
+  img: redtiger/blood-suckers-megaways.webp
+  url: https://gserver-invicta.redtiger.cash/invicta/launcher/BloodSuckersMegaways?affiliate=affiliate&channel=D&casino=5&token=demo_token&lang=id&playMode=demo&hasHistory=false&hasRealPlayButton=true&hasGamble=true&hasRoundId=true&fullScreen=false&hasAutoplayTotalSpins=true&hasAutoplayLimitLoss=true&hasAutoplaySingleWinLimit=true&hasAutoplayStopOnJackpot=true&hasAutoplayStopOnBonus=true
+  type: redtiger
+  provider: Red Tiger 

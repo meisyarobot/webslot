@@ -1,0 +1,486 @@
+name: Batik Gaming
+site_url: /
+
+menu:
+  - title: Beranda
+    url: /
+    icon: home
+  - title: Penafian
+    url: /about
+    icon: info
+  - title: Situs Sedot WC
+    url: /bo
+    icon: trash
+
+page:
+  menu: Menu
+  home: Beranda
+  disclaimer: Penafian
+  search: Cari
+  view_all: Lihat Semua
+  all: Semua
+  games: Games
+  line: Line
+  table_games: Game Tabel
+  egypt: mesir
+  mahjong: Mahyong
+  classic: Klasik
+  table: Tabel
+  new: Terbaru
+  nodata: Tidak ada game data
+  providers: Providers
+  language: Bahasa
+
+
+feature:
+  - title: Pragmatic Play
+    url: pragmaticplay
+    images:
+      - img: assets/img/features/peaky-blinders.webp
+        url: pragmaticplay
+      - img: assets/img/features/cowboys-gold.webp
+        url: pragmaticplay
+      - img: assets/img/features/wild-west-duels.webp
+        url: pragmaticplay
+      - img: assets/img/features/wild-west-gold.webp
+        url: pragmaticplay
+  - title: PG Soft
+    url: pgsoft
+    images:
+      - img: assets/img/features/wild-bounty-showdown.webp
+        url: pgsoft
+      - img: assets/img/features/medusa.webp
+        url: pgsoft
+      - img: assets/img/features/mahjong-ways2.webp
+        url: pgsoft
+      - img: assets/img/features/supermarket-spree.webp
+        url: pgsoft
+
+
+gamestudios:
+  - title: Pragmatic Play
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/pragmaticplay.svg
+    url: pragmaticplay
+  - title: PG Soft
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/pgsoft.svg
+    url: pgsoft
+  - title: Red Tiger
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/redtiger.svg
+    url: redtiger
+  - title: NetEnt
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/netent.svg
+    url: netent
+  - title: Nolimit City
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/nolimit.svg
+    url: nolimitcity
+  - title: Yggdrasil
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/yggdrasil.svg
+    url: yggdrasil
+  - title: Habanero
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/habanero.svg
+    url: habanero
+  - title: Mancala Gaming
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/mancala.svg
+    url: mancalagaming
+    disable: disable
+  - title: AvatarUx
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/avatarux.svg
+    url: avatarux    
+    disable: disable
+  - title: Ka Gaming
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/kagaming.svg
+    url: kagaming
+  - title: Playtech
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/playtech.svg
+    url: playtech
+  - title: Microgaming
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/microgaming.svg
+    url: microgaming
+  - title: Playson
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/playson.svg
+    url: playson
+  - title: Gameart
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/gameart.svg
+    url: gameart
+  - title: Bgaming
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/bgaming.svg
+    url: bgaming
+  - title: Skywind Group
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/skywind.svg
+    url: skywindgroup    
+    disable: disable
+  - title: Spinomenal
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/spinomenal.svg
+    url: spinomenal
+    disable: disable
+  - title: Peter & Sons
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/petersons.svg
+    url: petersons
+    disable: disable
+  - title: Booming Games
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/booming.svg
+    url: booming-games
+    disable: disable
+  - title: Evoplay
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/evoplay.svg
+    url: evoplay
+    disable: disable
+  - title: Play'n Go
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/playngo.svg
+    url: playngo
+    disable: disable
+  - title: Big Time Gaming
+    img: https://d1sc13y7hrlskd.cloudfront.net/providers/bigtimegaming.svg
+    url: btg
+    disable: disable
+
+
+providers:
+  - title: Pragmatic Play  
+    url: pragmaticplay
+  - title: PG Soft
+    url: pgsoft
+  - title: Yggdrasil
+    url: yggdrasil
+  - title: Nolimit City
+    url: nolimitcity
+  - title: Habanero
+    url: habanero
+  - title: Red Tiger
+    url: redtiger
+  - title: NetEnt
+    url: netent
+  - title: Bgaming
+    url: bgaming
+  - title: Play'n Go
+    url: playngo
+  - title: Microgaming
+    url: microgaming
+  - title: Advant Play
+    url: advantplay
+  - title: iSoftBet
+    url: isoftbet
+  - title: Naga Games
+    url: naga-games
+  - title: Eurasian Gaming
+    url: eagaming
+  - title: Spadegaming
+    url: spadegaming
+  - title: Playson
+    url: playson
+  - title: Dragoon Soft
+    url: dragoonsoft
+  - title: Ka Gaming
+    url: kagaming
+  - title: GMW
+    url: gmw
+  - title: Fastspin
+    url: fastspin
+  - title: Gameart
+    url: gameart
+  - title: Evoplay 
+    url: evoplay
+  - title: AvatarUX 
+    url: avatarux
+
+
+donasi:
+- title: Donasi
+  items:
+   - title: Dana (ewallet)
+     desc: 
+   - title: Bank BCA
+     desc: 
+   - img: Bank Raya / BRI Agroniaga
+     desc: 
+
+
+footer:
+  - title: 18+ 
+    img: https://l154gamer.github.io/assets/18plus.svg
+    url: https://l154gamer.github.io/
+    width: 25px
+    height: 25px
+  - title: Download Apk Android
+    img: https://l154gamer.github.io/assets/download-app.svg
+    url: https://l154gamer.github.io/app/android/L154Gamer_AndroidApp.apk
+    width: 120px
+    height: 120px
+
+
+
+bosedotwc:
+  - title: Ligareceh
+    img: 
+    server: Nukegaming
+  - title: Luck365
+    img: 
+    server: Infini88
+  - title: Kuningtoto
+    img:
+    server: IDN Play
+  - title: Hoki777
+    img: 
+    server: MPO
+  - title: Grandbet88
+    img: 
+    server: Nexus
+  - title: Totolotre
+    img:
+    server: IDN Play
+  - title: Dafatoto
+    img: 
+    server: IDN Play
+  - title: Pulautoto
+    img: 
+    server: IDN Play
+  - title: Bandarlotre
+    img: 
+    server: IDN Play
+  - title: Gembira77
+    img: 
+    server: Nexus
+  - title: Patriot88
+    img: 
+    server: Nexus    
+  - title: Congtogel
+    img: 
+    server: IDN Play    
+  - title: Doajitu
+    img: 
+    server: IDN Play    
+  - title: Sawit188
+    img: 
+    server: 369Club    
+  - title: Kilat69
+    img: 
+    server: Slotmania    
+  - title: SantuyJP
+    img: 
+    server: P2Play    
+  - title: Kios69
+    img: 
+    server: Infini88    
+
+
+
+byprovider:
+  - title: Pragmatic Play
+    url: pragmatic-play
+    images:
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/olympus-gates.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/starlight-princess.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/wild-west-duels.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/wild-west-gold.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/gatotkaca.webp
+    desc: Game Pragmatic Play tersedia disitus berserver IDN, NukeGaming, Infini, UG, Nexus, MPO, Pay4D.
+    
+  - title: PG Soft
+    url: pgsoft
+    images:
+      - img: https://l154gamer.github.io/assets/img/pgsoft/medusa.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/mahjong-ways.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/mahjong-ways2.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/supermarket-spree.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/qilin-ways.webp
+    desc: Game PG Soft tersedia disitus berserver IDN, NukeGaming, Infini, UG, Nexus, MPO, Pay4D.
+    
+  - title: Yggdrasil
+    url: yggdrasil
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/holmes-stolen-stones-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/vikings-go-berzerk-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/armed-bandit-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/easter-island2-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/beauty-the-beast-ygg.webp
+    desc: Game Yggdrasil tersedia disitus berserver NukeGaming, Infini, UG, Nexus, MPO.
+    
+  - title: Nolimit City
+    url: nolimit-city
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/folsom-prison-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/punk-rocker-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/rock-bottom-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/serial-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mental-nl.webp
+    desc: Game Nolimit City tersedia disitus berserver IDN, NukeGaming, Infini, UG, Nexus, Pay4D.
+    
+  - title: Red Tiger
+    url: redtiger
+    images:
+      - img: https://l154gamer.github.io/assets/img/redtiger/24hour-grand-prix.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/1942-sky-warrior.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/robin-hoods-wild-forest.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/ninja-ways.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/agent-royale.webp
+    desc: Game Red Tiger tersedia disitus berserver NukeGaming, UG, Nexus, MPO.
+    
+  - title: NetEnt
+    url: netent
+    images:
+      - img: https://l154gamer.github.io/assets/img/netent/dead-or-alive2-feature-buy.webp
+      - img: https://l154gamer.github.io/assets/img/netent/steam-tower.webp
+      - img: https://l154gamer.github.io/assets/img/netent/jumanji.webp
+      - img: https://l154gamer.github.io/assets/img/netent/drive-multiplier-mayhem.webp
+      - img: https://l154gamer.github.io/assets/img/netent/secrets-of-atlantis.webp
+    desc: Game NetEnt tersedia disitus berserver Nexus, UG, Pay4D, MPO, NukeGaming.
+    
+  - title: Bgaming
+    url: bgaming
+    images:
+      - img: https://l154gamer.github.io/assets/img/bgaming/avalon.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/lucky-dama-muerta.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/aztec-magic-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/hit-the-route.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/road-2-riches.webp
+    desc: Game Bgaming tersedia disitus berserver Nexus & UG.
+    
+  - title: Habanero
+    url: habanero
+    images:
+      - img: https://l154gamer.github.io/assets/img/habanero/koi-gates.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/london-hunter.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/return-to-the-feature.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/wild-trucks.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/egyptian-dreams-deluxe.webp
+    desc: Game Habanero tersedia disitus berserver IDN, NukeGaming, Infini, UG, Nexus, MPO, Pay4D.
+    
+  - title: Microgaming
+    url: microgaming
+    images:
+      - img: https://l154gamer.github.io/assets/img/microgaming/sherlock-of-london.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/break-da-bank-again.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/a-dark-matter.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/immortal-romance.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/jungle-jim.webp
+    desc: Game Microgaming tersedia disitus berserver Infini, IDN, Nexus, UG, Pay4D, NukeGaming.
+    
+  - title: Advant Play
+    url: advant-play
+    images:
+      - img: https://l154gamer.github.io/assets/img/advant-play/racing-for-luck.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/road-to-uefa.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/treasure-of-drake.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/anubis.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/infinity-ocean.webp
+    desc: Game Advant Play tersedia disitus berserver Infini, Nexus, UG, MPO, NukeGaming.
+    
+  - title: iSoftBet
+    url: isoftbet
+    images:
+      - img: https://l154gamer.github.io/assets/img/isoftbet/plunderin-pirates.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/bounty-belles.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/alice-adventure.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/tyrant-king.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/tales-of-silver.webp
+    desc: Tidak ada data.
+    
+  - title: Naga Games
+    url: naga-games
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/aphrodite-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mahjong-fortune-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/wild-west-saloon-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/steampunk-reloaded-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mermaids-treasure-ng.webp
+    desc: Game Naga Games tersedia disitus berserver Nexus, UG, MPO.
+    
+  - title: Eurasian Gaming
+    url: eagaming
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/thug-life-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/lady-hawk-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mythical-sand-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/immortals-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/ancient-rome-deluxe-ea.webp
+    desc: Game Eurasian Gaming (Eagaming) tersedia disitus berserver Nexus & UG.
+    
+  - title: Megaways
+    url: megaways
+    images:
+      - img: https://l154gamer.github.io/assets/img/megaways/egypt-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/risque-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/pirates-plenty-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/chilli-heat-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/big-bucks-bandits.webp
+    desc: Game Megaways tersedia disitus berserver IDN, NukeGaming, Infini, UG, Nexus, MPO, Pay4D.
+    
+  - title: Spadegaming
+    url: spadegaming
+    images:
+      - img: https://l154gamer.github.io/assets/img/spadegaming/royal-katt.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/first-love.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/gold-rush-cowboys.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/gangster-axe.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/gold-panther.webp
+    desc: Game Spadegaming tersedia disitus berserver Infini, Nexus, UG, Pay4D, NukeGaming.
+    
+  - title: Playson
+    url: playson
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/hit-the-bank-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/wolf-land-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/bozo-cats-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/solar-queen-megaways-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/pirate-sharky.webp
+    desc: Game Playson tersedia disitus berserver IDN, Nexus, UG.
+    
+  - title: Dragoon Soft
+    url: dragoon-soft
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/more-beauties-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/pirate-king-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/dracula-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/coin-cat-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/alice-ds.webp
+    desc: Game Dragoon Soft tersedia disitus berserver Infini, Nexus, UG.
+    
+  - title: Ka Gaming
+    url: kagaming
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/cowboys-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/sky-force-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/slap-it-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/route-66-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/1942-ka.webp
+    desc: Game Ka Gaming tersedia disitus berserver Nexus & UG.
+
+  - title: GMW (Game Media Works)
+    url: gmw
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/el-patron-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/marie-antoinettes-riches-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/princess-of-the-deep-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/jacks-quest-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/orca-gmw.webp
+    desc: Game GMW (Game Media Works) tersedia disitus berserver IDN, Nexus, UG.
+    
+  - title: Fastspin
+    url: fastspin
+    images:
+      - img: https://l154gamer.github.io/assets/img/fastspin/roma.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/the-maya-myth.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/tiki-rush.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/safari-blitz.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/royal-katt.webp
+    desc: Game Fastspin tersedia disitus berserver Nexus, UG, Pay4D. 
+
+  - title: Gameart
+    url: gameart
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/wwq-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/chili-quest-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/hawaiian-fruits-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/tesla-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/safari-gems-ga.webp
+    desc: Game Gameart tersedia disitus berserver IDN.
+    
+  - title: Evoplay
+    url: evoplay
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/gangster-night-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/sea-of-spins-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/battle-tanks-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/night-of-the-living-tales-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/food-feast-evo.webp
+    desc: Game Evoplay tersedia disitus berserver Nexus, UG, MPO.

@@ -1,0 +1,433 @@
+# Basic
+name: Indonesia
+site_url: /
+site:
+  title: L154 Gamer
+disclaimer: >
+  Semua konten yang ada di situs "L154 Gamer" dimaksudkan untuk tujuan hiburan saja dan tidak dimaksudkan untuk mempromosikan perjudian. Perlu ditekankan bahwa semua pengguna situs "L154 Gamer" harus berusia di atas 18 tahun dan mematuhi semua hukum dan peraturan yang berlaku dan ANDA harus berusia minimal 18 tahun untuk menggunakan situs ini. ANDA setuju untuk menggunakannya hanya untuk tujuan hiburan. ANDA telah setuju untuk tidak menggunakan situs web untuk aktivitas ilegal atau penipuan apa pun. Dengan menggunakan situs kami, anda mengakui bahwa anda telah membaca dan memahami penafian ini dan setuju untuk mematuhi syarat dan ketentuan kami. Jika Anda tidak menyetujui syarat dan ketentuan ini, mohon jangan gunakan situs ini.
+donate: >
+  Donasi untuk mendukung situs ini. 
+  Dana (ewallet) 0881024240202
+info: >
+  Game favorit hanya disimpan di penyimpanan lokal browser Anda, dan tidak akan tersedia di perangkat atau browser lain.
+
+# Sidenav
+sidenav:
+  - title: Menu
+    items:
+      - title: Beranda
+        url: /
+      - title: Penafian
+        url: /disclaimer
+      - title: Situs Scam
+        url: /bo
+      - title: Faq
+        url: /faq
+      - title: Donasi
+        url: /donation
+    bahasa:
+      - title: Indonesia
+        url: /
+      - title: English
+        url: /en
+  - title: Game Develovers
+    items:
+      - title: Pragmatic Play
+        url: /pragmaticplay
+      - title: PG Soft
+        url: /pgsoft
+      - title: Nolimit City
+        url: /nolimitcity
+      - title: NetEnt
+        url: /netent
+      - title: Microgaming
+        url: /microgaming
+      - title: Hacksaw Gaming
+        url: /hacksaw
+    all:
+      - title: Semua
+        url: /categories
+
+
+# Page
+page:
+  home: Beranda
+  disclaimer: Penafian
+  view_all: Lihat Semua
+  show_all: Tampilkan Semua
+  download: Unduh
+  donate: Donasi
+  game: Permainan
+  english: English
+  indonesia: Indonesian
+  russian: Rusian
+  language: Bahasa
+  currency: Mata Uang
+  lang-cur: Bahasa & Mata Uang
+  play: Main
+  faq: FAQ
+  search: Cari di
+  all: Semua
+  table: Tabel 
+  new: Terbaru
+  new_games: Game Terbaru
+  classic_slots: Slot Klasik
+  settings: Pengaturan
+  filter: Sortir
+  all_games: Semua Game
+  classic: Klasik
+  classic_games: Game Klasik
+  table_games: Table Games
+  providers: Providers
+  list: List
+  grid: Grid
+  menu: Menu
+  slots: Slots
+  show_more: Tampilkan lebih banyak
+  load_more: Muat lebih banyak
+  collections : Koleksi
+  line: Line
+  page_not_found: Halama tidak ditemukan
+  error_404: Halaman yang anda cari untuk sementara tidak tersedia. Silakan coba lagi nanti.
+  nodata: Tidak ada game data
+  scam_websites: Scam Websites
+  recommended_games: Game Rekomendasi
+  page_under_construction: Halaman ini sedang dalam perbaikan. Mohon maaf atas ketidaknyamanannya.
+  site_under_construction: Situs sedang dalam pengembangan
+  refresh: Segarkan
+  reload: Muat ulang
+  display: Tampilan
+  tc: Syarat & Ketentuan
+  tos: Ketentuan Layanan
+  tou: Ketentuan Pengguna
+  contact_us: Hubungi Kami
+  maintenance: Sedang dalam pemeliharaan
+  close: Tutup
+  next: Selanjutnya
+  previous: Sebelumnya
+  select: Providers
+  displayed: Menampilkan
+  of: dari
+  results: Hasil
+  games_found: Games ditemukan
+  upcoming: Akan datang
+  add_to_my_favorites: Tambahkan ke daftar favorit saya
+  remove_from_my_favorites: Hapus dari daftar favorite saya
+  no_favorites_yet: Tidak ada game favorit
+  empty_favorites: Kosongkan favorit
+  my_favorites: Game Favorit Anda
+  delete: Hapus
+  play: Main
+  upcoming: Akan Datang
+  no_demo: Demo belum tersedia
+
+
+
+# Faq
+faq:
+  - q: Apakah saya bisa mengklaim kemenangan?
+    a: Tidak. Anda tidak dapat mengklaim hasil kemenangan JP atau Maxwin dari permainan demo.
+  - q: Apakah saya dapat memutar ulang game yang pernah saya mainkan?
+    a: Tidak.
+  - q: Apakah saya perlu mengunduh game untuk memainkan versi demo?
+    a: Tidak, anda tidak perlu mengunduh apa pun.
+  - q: Apakah saya perlu membuat akun untuk memainkan versi demo?
+    a: Tidak, Anda tidak perlu membuat akun untuk memainkan game slot versi demo.
+  - q: Mengapa game tidak bisa dimainkan
+    a: Mohon dimaklum, karena perjudian termasuk game slot dilarang oleh pemerintah Indonesia, jadi bisa saja diblokir, oleh karena itu game tidak dapat dimainkan. Silahkan laporkan melalui whatsapp 0881024240202. Kami akan memperbaikinya dengan mengupdate link terbaru agar anda dapat bermain kembali.
+
+
+
+# Collections
+collections:
+ - title: Mahyong
+   img: assets/images/kits/mahjong.svg
+   url: /collections/mahjong
+   width: 58px
+   height: 58px
+ - title: Game Tabel
+   img: assets/images/kits/table_games.svg
+   url: /collections/tablegames
+   width: 50px
+   height: 50px
+   disable: disable
+ - title: Mesir Mitologi
+   img: assets/images/kits/egyptian.svg
+   url: /collections/egypt
+   width: 50px
+   height: 50px
+   disable: disable
+ - title: Kebudayaan Indonesia
+   img: assets/images/kits/gatotkaca.svg
+   url: /collections/indonesian-cultures
+   width: 50px
+   height: 50px
+ - title: Megaways
+   img: assets/images/kits/megaways.svg
+   url: /megaways
+   width: 36px
+   height: 36px
+
+
+
+# Footer
+footer:
+  - title: Gamble Responsibly
+    img: assets/images/kits/18_plus.svg
+    url: https://l154gamer.github.io/disclaimer
+  - title: Download Android App
+    img: assets/download-app.svg
+    url: https://l154gamer.github.io/app/android/L154Gamer_AndroidApp.apk
+  - title: I Stand With Palestine
+    img: assets/images/kits/free_palestine.svg
+    url: https://l154gamer.github.io/
+
+
+
+# Featured
+feature:
+  - title: Pragmatic Play
+    url: pragmaticplay
+    images:
+      - img: assets/images/peaky-blinders.webp
+        url: pragmaticplay
+      - img: assets/images/cowboys-gold.webp
+        url: pragmaticplay
+      - img: assets/img/pragmatic-play/wild-west-duels.webp
+        url: pragmaticplay
+      - img: assets/img/pragmatic-play/wild-west-gold.webp
+        url: pragmaticplay
+  - title: PG Soft
+    url: pgsoft
+    images:
+      - img: assets/images/treasures-of-aztec.webp
+        url: pgsoft
+      - img: assets/images/mafia-mayhem.webp
+        url: pgsoft
+      - img: assets/img/pgsoft/mahjong-ways2.webp
+        url: pgsoft
+      - img: assets/img/pgsoft/supermarket-spree.webp
+        url: pgsoft
+  - title: Nolimit City
+    url: nolimitcity
+    images:
+      - img: assets/images/punk-toilet.webp
+        url: nolimitcity
+      - img: assets/images/tombstone-rip.webp
+        url: nolimitcity
+      - img: assets/img/nolimit-city/dday.webp
+        url: nolimitcity
+      - img: assets/img/nolimit-city/disturbed.webp
+        url: nolimitcity
+        
+
+
+# Providers
+byprovider:
+  - title: Pragmatic Play
+    url: pragmaticplay
+    images:
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/olympus-gates.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/starlight-princess.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/wild-west-duels.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/wild-west-gold.webp
+      - img: https://l154gamer.github.io/assets/img/pragmatic-play/gatotkaca.webp
+        
+  - title: PG Soft
+    url: pgsoft
+    images:
+      - img: https://l154gamer.github.io/assets/img/pgsoft/medusa.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/mahjong-ways.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/mahjong-ways2.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/supermarket-spree.webp
+      - img: https://l154gamer.github.io/assets/img/pgsoft/qilin-ways.webp
+        
+  - title: Yggdrasil
+    url: yggdrasil
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/holmes-stolen-stones-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/vikings-go-berzerk-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/armed-bandit-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/easter-island2-ygg.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/beauty-the-beast-ygg.webp
+        
+  - title: Nolimit City
+    url: nolimitcity
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/folsom-prison-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/punk-rocker-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/rock-bottom-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/serial-nl.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mental-nl.webp
+        
+  - title: Red Tiger
+    url: redtiger
+    images:
+      - img: https://l154gamer.github.io/assets/img/redtiger/24hour-grand-prix.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/1942-sky-warrior.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/robin-hoods-wild-forest.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/ninja-ways.webp
+      - img: https://l154gamer.github.io/assets/img/redtiger/agent-royale.webp
+        
+  - title: NetEnt
+    url: netent
+    images:
+      - img: https://l154gamer.github.io/assets/img/netent/dead-or-alive2-feature-buy.webp
+      - img: https://l154gamer.github.io/assets/img/netent/steam-tower.webp
+      - img: https://l154gamer.github.io/assets/img/netent/jumanji.webp
+      - img: https://l154gamer.github.io/assets/img/netent/drive-multiplier-mayhem.webp
+      - img: https://l154gamer.github.io/assets/img/netent/secrets-of-atlantis.webp
+        
+  - title: Bgaming
+    url: bgaming
+    images:
+      - img: https://l154gamer.github.io/assets/img/bgaming/avalon.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/lucky-dama-muerta.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/aztec-magic-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/hit-the-route.webp
+      - img: https://l154gamer.github.io/assets/img/bgaming/road-2-riches.webp
+        
+  - title: Habanero
+    url: habanero
+    images:
+      - img: https://l154gamer.github.io/assets/img/habanero/koi-gates.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/london-hunter.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/return-to-the-feature.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/wild-trucks.webp
+      - img: https://l154gamer.github.io/assets/img/habanero/egyptian-dreams-deluxe.webp
+        
+  - title: Microgaming
+    url: microgaming
+    images:
+      - img: https://l154gamer.github.io/assets/img/microgaming/sherlock-of-london.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/break-da-bank-again.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/a-dark-matter.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/immortal-romance.webp
+      - img: https://l154gamer.github.io/assets/img/microgaming/jungle-jim.webp
+        
+  - title: Advant Play
+    url: advantplay
+    images:
+      - img: https://l154gamer.github.io/assets/img/advant-play/racing-for-luck.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/road-to-uefa.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/treasure-of-drake.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/anubis.webp
+      - img: https://l154gamer.github.io/assets/img/advant-play/infinity-ocean.webp
+        
+  - title: iSoftBet
+    url: isoftbet
+    images:
+      - img: https://l154gamer.github.io/assets/img/isoftbet/plunderin-pirates.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/bounty-belles.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/alice-adventure.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/tyrant-king.webp
+      - img: https://l154gamer.github.io/assets/img/isoftbet/tales-of-silver.webp
+    
+  - title: Naga Games
+    url: nagagames
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/aphrodite-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mahjong-fortune-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/wild-west-saloon-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/steampunk-reloaded-ng.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mermaids-treasure-ng.webp
+        
+  - title: Eurasian Gaming
+    url: eagaming
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/thug-life-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/lady-hawk-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/mythical-sand-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/immortals-ea.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/ancient-rome-deluxe-ea.webp
+     
+  - title: Megaways
+    url: megaways
+    images:
+      - img: https://l154gamer.github.io/assets/img/megaways/egypt-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/risque-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/pirates-plenty-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/chilli-heat-megaways.webp
+      - img: https://l154gamer.github.io/assets/img/megaways/big-bucks-bandits.webp
+        
+  - title: Spadegaming
+    url: spadegaming
+    images:
+      - img: https://l154gamer.github.io/assets/img/spadegaming/royal-katt.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/first-love.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/gold-rush-cowboys.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/gangster-axe.webp
+      - img: https://l154gamer.github.io/assets/img/spadegaming/gold-panther.webp
+        
+  - title: Playson
+    url: playson
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/hit-the-bank-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/wolf-land-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/bozo-cats-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/solar-queen-megaways-playson.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/pirate-sharky.webp
+        
+  - title: Dragoon Soft
+    url: dragoonsoft
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/more-beauties-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/pirate-king-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/dracula-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/coin-cat-ds.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/alice-ds.webp
+        
+  - title: Ka Gaming
+    url: kagaming
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/cowboys-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/sky-force-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/slap-it-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/route-66-ka.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/1942-ka.webp
+    
+  - title: GMW (Game Media Works)
+    url: gmw
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/el-patron-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/marie-antoinettes-riches-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/princess-of-the-deep-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/jacks-quest-gmw.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/orca-gmw.webp
+    
+  - title: Fastspin
+    url: fastspin
+    images:
+      - img: https://l154gamer.github.io/assets/img/fastspin/roma.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/the-maya-myth.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/tiki-rush.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/safari-blitz.webp
+      - img: https://l154gamer.github.io/assets/img/fastspin/royal-katt.webp
+
+  - title: Gameart
+    url: gameart
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/wwq-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/chili-quest-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/hawaiian-fruits-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/tesla-ga.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/safari-gems-ga.webp
+    
+  - title: Evoplay
+    url: evoplay
+    images:
+      - img: https://l154gamer.github.io/assets/images/thumbnail/gangster-night-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/sea-of-spins-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/battle-tanks-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/night-of-the-living-tales-evo.webp
+      - img: https://l154gamer.github.io/assets/images/thumbnail/food-feast-evo.webp
+
+  - title: Hacksaw Gaming
+    url: hacksaw
+    images:
+      - img: https://l154gamer.github.io/assets/img/hacksaw/le-bandit.jpg
+      - img: https://l154gamer.github.io/assets/img/hacksaw/itero.jpg
+      - img: https://l154gamer.github.io/assets/img/hacksaw/densho.jpg
+      - img: https://l154gamer.github.io/assets/img/hacksaw/book-of-time.jpg
+      - img: https://l154gamer.github.io/assets/img/hacksaw/born-wild.jpg
+

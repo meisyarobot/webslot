@@ -1,0 +1,449 @@
+- title: Beauty and The Beast
+  id: 7333
+  lang: en
+  currency: USD
+  img: beauty-the-beast.webp
+  url: yggdrasil/beauty-and-the-beast
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7333&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Spina Colada
+  id: 7339
+  lang: en
+  currency: USD
+  img: spina-colada.webp
+  url: yggdrasil/spina-colada
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7339&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Golden Fish Tank
+  id: 7322
+  lang: en
+  currency: USD
+  img: golden-fish-tank.webp
+  url: yggdrasil/golden-fish-tank
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7322&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Golden Fish Tank 2
+  id: 7409
+  lang: en
+  currency: USD
+  img: golden-fish-tank2.webp
+  url: yggdrasil/golden-fish-tank2
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7409&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Holmes and The Stolen Stones
+  id: 7317
+  lang: en
+  currency: USD
+  img: holmes-stolen-stones.webp
+  url: yggdrasil/holmes-stolen-stones
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7317&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Vikings Go Berzerk
+  id: 7331
+  lang: en
+  currency: USD
+  img: vikings-go-berzerk.webp
+  url: yggdrasil/vikings-go-berzerk
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7331&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Rainbow Ryan
+  id: 7336
+  lang: en
+  currency: USD
+  img: rainbow-ryan.webp
+  url: yggdrasil/rainbow-ryan
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7336&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Winter Berries
+  id: 7302
+  lang: en
+  currency: USD
+  img: winter-berries.webp
+  url: yggdrasil/winter-berries
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7302&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Nirvana
+  id: 7319
+  lang: en
+  currency: USD
+  img: nirvana.webp
+  url: yggdrasil/nirvana
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7319&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Double Dragons
+  id: 7329
+  lang: en
+  currency: USD
+  img: double-dragons.webp
+  url: yggdrasil/double-dragons
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7329&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Jungle Books
+  id: 7337
+  lang: en
+  currency: USD
+  img: jungle-books.webp
+  url: yggdrasil/jungle-books
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7337&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Legend of The Golden Monkey
+  id: 7325
+  lang: en
+  currency: USD
+  img: golden-monkey.webp
+  url: yggdrasil/golden-monkey
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7325&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Legend of The White Snake Lady
+  id: 7327
+  lang: en
+  currency: USD
+  img: white-snake-lady.webp
+  url: yggdrasil/white-snake-lady
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7327&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Seasons
+  id: 7323
+  lang: en
+  currency: USD
+  img: seasons.webp
+  url: yggdrasil/seasons
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7323&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Super Heroes
+  id: 7330
+  lang: en
+  currency: USD
+  img: super-heroes.webp
+  url: yggdrasil/super-heroes
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7330&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Sunny Shores
+  id: 7338
+  lang: en
+  currency: USD
+  img: sunny-shores.webp
+  url: yggdrasil/sunny-shores
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7338&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Alchymedes
+  id: 7332
+  lang: en
+  currency: USD
+  img: alchymedes.webp
+  url: yggdrasil/alchymedes
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7332&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Big Blox
+  id: 7328
+  lang: en
+  currency: USD
+  img: big-blox.webp
+  url: yggdrasil/big-blox
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7328&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Vikings Go Wild
+  id: 7316
+  lang: en
+  currency: USD
+  img: vikings-go-wild.webp
+  url: yggdrasil/vikings-go-wild
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7316&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Cazino Zeppelin
+  id: 7308
+  lang: en
+  currency: USD
+  img: cazino-zeppelin.webp
+  url: yggdrasil/cazino-zeppelin
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7308&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Gem Rocks
+  id: 7343
+  lang: en
+  currency: USD
+  img: gem-rocks.webp
+  url: yggdrasil/gem-rocks
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7343&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Cyrus The Virus
+  id: 7313
+  lang: en
+  currency: USD
+  img: cyrus-the-virus.webp
+  url: yggdrasil/cyrus-the-virus
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7313&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Fruitoids
+  id: 7304
+  lang: en
+  currency: USD
+  img: fruitoids.webp
+  url: yggdrasil/fruitoids
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7304&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Wicked Circus
+  id: 7321
+  lang: en
+  currency: USD
+  img: wicked-circus.webp
+  url: yggdrasil/wicked-circus
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7321&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Sahara Nights
+  id: 10157
+  lang: en
+  currency: USD
+  img: sahara-nights.webp
+  url: yggdrasil/sahara-nights
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=10157&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Brazil Bomba
+  id: 7375
+  lang: en
+  currency: USD
+  img: brazil-bomba.webp
+  url: yggdrasil/brazil-bomba
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7375&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: The Royal Family
+  id: 8303
+  lang: en
+  currency: USD
+  img: royal-family.webp
+  url: yggdrasil/royal-family
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=8303&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: The One Armed of Bandit
+  id: 10143
+  lang: en
+  currency: USD
+  img: armed-bandit.webp
+  url: yggdrasil/one-armed-bandit
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=10143&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Champions of Rome
+  id: 10158
+  lang: en
+  currency: USD
+  img: champions-rome.webp
+  url: yggdrasil/champions-of-rome
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=10158&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Penguin City
+  id: 7350
+  lang: en
+  currency: USD
+  img: penguin-city.webp
+  url: yggdrasil/penguin-city
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7350&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Easter Island 
+  id: 10072
+  lang: en
+  currency: USD
+  img: easter-island.webp
+  url: yggdrasil/easter-island
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=10072&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Easter Island 2
+  id: 7396
+  lang: en
+  currency: USD
+  img: easter-island2.webp
+  url: yggdrasil/easter-island2
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7396&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Baron Samedi
+  id: 7354
+  lang: en
+  currency: USD
+  img: baron-samedi.webp
+  url: yggdrasil/baron-samedi
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7354&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Calavera Crush
+  id: 10292
+  lang: en
+  currency: USD
+  img: calavera-crush.webp
+  url: yggdrasil/calavera-crush
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=10292&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Arthur's Fortune
+  id: 10160
+  lang: en
+  currency: USD
+  img: arthurs-fortune.webp
+  url: yggdrasil/arthurs-fortune
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=10160&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Blood Moon Wilds
+  id: 10161
+  lang: en
+  currency: USD
+  img: blood-moon-wilds.webp
+  url: yggdrasil/blood-moon-wilds
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=10161&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Bicicleta
+  id: 7326
+  lang: en
+  currency: USD
+  img: bicicleta.webp
+  url: yggdrasil/bicicleta
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7326&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Football Glory
+  id: 7386
+  lang: en
+  currency: USD
+  img: football-glory.webp
+  url: yggdrasil/football-glory
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7386&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Orient Express
+  id: 8301
+  lang: en
+  currency: USD
+  img: orient-express.webp
+  url: yggdrasil/orient-express
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=8301&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Raptor Doublemax
+  id: 7408
+  lang: en
+  currency: USD
+  img: raptor.webp
+  url: yggdrasil/raptor-doublemax
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7408&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Gator Gold Gigablox 
+  id: 7401
+  lang: en
+  currency: USD
+  img: gator-gold.webp
+  url: yggdrasil/gator-gold
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7401&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Gator Gold Gigablox Deluxe 
+  id: 10170
+  lang: en
+  currency: USD
+  img: gator-gold-deluxe.webp
+  url: yggdrasil/gator-gold-deluxe
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=10170&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Trolls Bridge
+  id: 8302
+  lang: en
+  currency: USD
+  img: trolls-bridge.webp
+  url: yggdrasil/trolls-bridge
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=8302&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Time Travel Tigers
+  id: 7356
+  lang: en
+  currency: USD
+  img: time-travel-tigers.webp
+  url: yggdrasil/time-travel-tigers
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7356&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Age of Asgard
+  id: 7365
+  lang: en
+  currency: USD
+  img: asgard.webp
+  url: yggdrasil/asgard
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7365&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Aldo's Journey
+  id: 7372
+  lang: en
+  currency: USD
+  img: aldos-journey.webp
+  url: yggdrasil/aldos-journey
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7372&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Pirates Smugglers Paradise
+  id: 8304
+  lang: en
+  currency: USD
+  img: pirates-paradise.webp
+  url: yggdrasil/pirates-paradise
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=8304&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/yggdrasil
+  provider: YGGDRASIL
+
+- title: Ozwin's Jackpot
+  id: 7345
+  lang: en
+  currency: USD
+  img: ozwins-jackpots.webp
+  url: yggdrasil/ozwins-jackpots
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?org=demo&gameid=7345&lang=en&currency=USD
+  provider: YGGDRASIL
+
+- title: Eye of Persia 2
+  id: 10250
+  lang: en
+  currency: USD
+  img: persia-eye2.webp
+  url: yggdrasil/eye-of-persia2
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=10250&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/games/yggdrasil
+  provider: YGGDRASIL
+
+- title: Tuts Twister
+  id: 7349
+  lang: en
+  currency: USD
+  img: tuts-twister.webp
+  url: yggdrasil/tuts-twister
+  permalink: https://static-fra.pff-ygg.com/init/launchClient.html?gameid=7349&org=demo&lang=en&currency=USD&channel=mobile&home=https://l154gamer.github.io/games/yggdrasil
+  provider: YGGDRASIL

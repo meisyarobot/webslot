@@ -1,0 +1,37 @@
+en_EN:
+  - title: Bozo Cats
+    img: https://playson.com/media/cache/game/uploads/games/cropped/ecf424d59a2e7c8c32df2dbf15bc33805e6442e2.png
+    url: https://playsonsite-dgm.ps-gamespace.com/launch?key=TEST1100000&partner=playsonsite-prod&gameName=bozo_cats_mob&lang=en
+    type: videosot
+    provider: Playson
+
+  - title: Hit the Bank — Hold and Win
+    img: https://playson.com/media/cache/game/uploads/games/cropped/d0b1026d8fc33faf110f978c85178044e3e563fb.png
+    url: https://playsonsite-dgm.ps-gamespace.com/launch?key=TEST1100000&partner=playsonsite-prod&gameName=hit_the_bank_mob&lang=en
+    type: videosot
+    provider: Playson
+
+  - title: Pirate Sharky
+    img: https://playson.com/media/cache/game/uploads/games/cropped/2a042072e4601c9707efef043c4ba1bed943eb25.png
+    url: https://playsonsite-dgm.ps-gamespace.com/launch?key=TEST1100000&partner=playsonsite-prod&gameName=pirate_sharky_mob&lang=en
+    type: videosot
+    provider: Playson
+
+  - title: Solar Queen Megaways
+    img: https://playson.com/media/cache/game/uploads/games/cropped/911bc91a200d462b92bec104d9c4a94458a5342e.png
+    url: https://playsonsite-dgm.ps-gamespace.com/launch?key=TEST1100000&partner=playsonsite-prod&gameName=solar_queen_mega_mob&lang=en
+    type: videosot
+    provider: Playson
+
+  - title: Solar Queen
+    img: https://playson.com/media/cache/game/uploads/games/cropped/b868f1b2417d009c9bce33b1ce6aec33389cfbb3.jpg
+    url: https://playsonsite-dgm.ps-gamespace.com/launch?key=TEST1100000&partner=playsonsite-prod&gameName=solar_queen_mob&lang=en
+    type: videosot
+    provider: Playson
+
+  - title: Wolf Land — Hold and Win
+    img: https://playson.com/media/cache/game/uploads/games/cropped/32c5e944823ffc08bfcfe1830cab07599cf916a9.png
+    url: https://playsonsite-dgm.ps-gamespace.com/launch?key=TEST1100000&partner=playsonsite-prod&gameName=wolf_land_mob&lang=en
+    type: videosot
+    provider: Playson
+
