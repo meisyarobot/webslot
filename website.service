@@ -1,0 +1,12 @@
+[Unit]
+Description=Gunicorn instance to serve Flask Website
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/root/website
+ExecStart=/usr/bin/gunicorn --config gunicorn_config.py app:app
+
+[Install]
+WantedBy=multi-user.target
