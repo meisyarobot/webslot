@@ -1,0 +1,52 @@
+---
+layout: main
+title: Bgaming
+permalink: /en/bgaming/
+active: bgaming
+locale: en
+uid: bgaming
+---
+<ul class="uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+    <li><a class="uk-button-link" href="#games">Games</a></li>
+    <li><a class="uk-button-link" href="#myfavorites">{{ site.data.locales[page.locale].page.my_favorites }}</a></li>
+</ul>
+<ul class="uk-switcher uk-margin">
+<li>
+<div id="grid" class="js-filter uk-grid-small uk-grid-match" uk-height-match="target: > div > .uk-card" uk-grid>
+{% for game in site.data.games.bgaming.data %}  
+ <div data-pilih="{{game.type}}" class="uk-width-1-2 bc {{game.disable}}" id="{{ game.title }}">
+  <div class="uk-card uk-card-default uk-border-rounded"> 
+   <div class="uk-card-media-top">
+    <a href="{{ game.permalink | absolute_url }}" target="modal_iframe" onClick="showModal()"> 
+     <img src="{{site.url}}assets/img/bgaming/{{game.img}}" width="1800" height="1200" alt="{{game.title}}" class="uk-border-rounded">
+    </a>
+   </div> 
+   <div class="uk-card-body uk-margin-remove-top"> 
+      <button class="uk-icon-button uk-card-badge uk-label shop-item__favorite-button" data-add-to-favorite="{{ game.title }}" data-favorite-title="{{ game.title }}" style="background: transparent !important; border: 0px !important;">
+          <span class="sr-only"
+                data-favorite="Add to my favorites"
+                data-favorite-added="Remove from my favorites"></span>
+      </button>       
+      <h3 class="uk-link-reset uk-text-small uk-card-title uk-text-bold">
+       <a href="{{ game.permalink | absolute_url }}" target="modal_iframe" onClick="showModal()">{{game.title}}</a>
+      </h3>
+   </div> 
+  </div>
+ </div>       
+{% else %}
+<p>{{ site.data.locales[page.locale].page.nodata }}</p>
+ {% endfor %}        
+</div>
+</li>
+<li>
+   <div class="uk-clearfix">
+    <div class="uk-float-left">
+      <a class="uk-link-muted" href="#" uk-switcher-item="previous"><span uk-icon="arrow-left"></span> Go back</a>
+    </div>
+    <div class="uk-float-right">
+      <button class="uk-button uk-button-danger uk-button-small clear_favorites">{{ site.data.locales[page.locale].page.empty_favorites }}</button>
+    </div>
+   </div>    
+ <ul class="uk-list uk-list-divider uk-link-text favorites__list" data-my-favorites data-my-favorites-empty="{{ site.data.locales[page.locale].page.no_favorites_yet }}"></ul>
+</li>
+</ul>

@@ -1,0 +1,58 @@
+---
+layout: default
+title: Blacklisted Game Providers & Casino Sites
+permalink: /en/bo/
+locale: en
+uid: bo
+---
+
+<div class="uk-margin">
+<ul uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium" uk-tab>
+    <li><a href="#">Intro</a></li>
+    <li><a href="#">Casinos</a></li>
+    <li><a href="#">Game Providers</a></li>
+</ul>
+
+<ul class="uk-switcher uk-margin">
+    <li>
+<p class="uk-margin-remove-bottom">Before you play gambling games online, you must be aware of the different scams there. Here are some of the most common ways casino players have been scammed:</p> 
+    
+<h5 class="uk-margin-remove-bottom">Deposit theft</h5>
+<p class="uk-margin-remove-top">Players make deposits, but their funds never show up in their accounts. Or, they may receive a notification that their deposit was declined.</p>
+
+<h5 class="uk-margin-remove-bottom">Non-payment</h5>
+<p class="uk-margin-remove-top">Online gambling scams can take the form of casinos that don’t pay out. Here, the player wins money, but the site claims they don’t meet the wagering requirements for withdrawal, even if they do.</p>
+
+<h5 class="uk-margin-remove-bottom">Rigged games</h5>
+<p class="uk-margin-remove-top">Some scammers create fake online casinos and rig the games so you can never win. By doing this, they encourage you to keep playing (and losing) in the hopes that you’ll eventually give up or deposit even more money.</p>
+
+<p class="uk-text-small">Source: <a href="https://reviewlution.ca/resources/online-casino-scams/" target="_blank">Reviewlution.ca</a></p>
+
+    </li>
+    <li>
+<p>The following is a list of online casino scams in Indonesia you need to avoid and be aware of.</p>    
+<table id="datatable" class="uk-table uk-table-divider">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Server</th>
+        </tr>
+    </thead>
+    <tbody>
+       {% for item in site.data.settings.bosedotwc %}  
+        <tr>
+            <td>{{ item.title }}</td>
+            <td>{{ item.server }}</td>
+        </tr>
+      {% else %}
+      {% if page.locale %}<p>{{ site.data.locales[page.locale].page.nodata }}{% else %}{{ site.data.settings.page.nodata }}</p>{% endif %} 
+      {% endfor %}
+  </tbody>
+</table>
+    </li>
+    <li>
+        <a href="https://l154gamer.github.io/en/gameart/">GameArt</a> is currently blacklisted on Bigwinboard. <a href="https://www.bigwinboard.com/gameart/" rel="nofollow" target="_blank">Click to learn why</a>.
+    </li>
+</ul>
+    
+</div>
