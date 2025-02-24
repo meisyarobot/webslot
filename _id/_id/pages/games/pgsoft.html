@@ -1,0 +1,28 @@
+---
+layout: main
+title: PG Soft
+permalink: /pgsoft/
+active: pgsoft
+locale: id
+uid: pgsoft
+---
+<div id="grid" class="js-filter uk-grid-small uk-grid-match" uk-height-match="target: > div > .uk-card" uk-grid>
+{% for game in site.data.games.pgsoft.data.pgsoft %}  
+ <div data-pilih="{{ game.type }}" class="uk-width-1-2 bc {{ game.disable }}">
+  <div class="uk-card uk-card-default uk-border-rounded"> 
+   <div class="uk-card-media-top">
+    <a href="https://m.pgsoft-games.com/{{ game.gameid }}/index.html?ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&l=id" target="modal_iframe" onClick="showModal()"> 
+     <img src="{{ site.url }}assets/img/pgsoft/{{ game.img }}" width="1800" height="1200" alt="{{ game.title }}" class="uk-border-rounded">
+    </a>
+   </div> 
+   <div class="uk-card-body uk-margin-remove-top"> 
+    <h3 class="uk-link-reset uk-text-small uk-card-title uk-text-bold">
+    <a href="https://m.pgsoft-games.com/{{ game.gameid }}/index.html?ot=ca7094186b309ee149c55c8822e7ecf2&btt=2&from=https://l154gamer.github.io/games/quit&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&l=id" target="modal_iframe" onClick="showModal()">{{ game.title }}</a>
+    </h3>
+   </div> 
+  </div>
+ </div>       
+{% else %}
+<p>{{ site.data.locales[page.locale].page.nodata }}</p>
+ {% endfor %}        
+</div>

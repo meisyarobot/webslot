@@ -1,0 +1,56 @@
+---
+layout: default
+title: Blacklisted Game Providers & Casino Sites
+permalink: /bo/
+locale: id
+uid: bo
+---
+
+<div class="uk-margin">
+<ul uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium" uk-tab>
+    <li><a href="#">Intro</a></li>
+    <li><a href="#">Bo</a></li>
+    <li><a href="#">Providers</a></li>
+</ul>
+
+<ul class="uk-switcher uk-margin">
+    <li>
+<p>Sebelum anda bermain permainan slot atau judi online, Anda harus mengetahui atau mewaspadai berbagai penipuan yang ada. Berikut adalah beberapa cara paling umum yang dilakukan penipu:</p> 
+    
+<h5 class="uk-text-uppercase uk-margin-remove-bottom">Pencuri Deposit</h5>
+<p class="uk-margin-remove-top">Pemain melakukan deposit, namun dana mereka tidak pernah muncul di akun mereka. Atau, mereka mungkin menerima pemberitahuan bahwa setoran mereka ditolak.</p>
+
+<h5 class="uk-text-uppercase uk-margin-remove-bottom">Tidak Membayar</h5>
+<p class="uk-margin-remove-top">Penipuan perjudian online dapat berupa kasino yang tidak membayar. Di sini, pemain memenangkan uang, tetapi situs tersebut mengklaim bahwa mereka tidak memenuhi persyaratan untuk penarikan, meskipun mereka memenuhinya.</p>
+
+<h5 class="uk-text-uppercase uk-margin-remove-bottom">Game yang dicurangi (atau Sedot Wc)</h5>
+<p class="uk-margin-remove-top">Beberapa penipu membuat kasino online palsu dan mencurangi permainannya sehingga Anda tidak akan pernah menang. Dengan melakukan ini, mereka mendorong Anda untuk terus bermain (dan kalah) dengan harapan pada akhirnya Anda akan menyerah atau menyetor lebih banyak uang.</p>
+    </li>
+    <li>
+     <h4>Bo Yang Di Blacklist</h4> 
+     <p>Berikut ini adalah daftar/kumpulan situs bo penipu (atau situs bo sedot wc) yang perlu anda hindari dan waspadai.</p>
+<table id="table" class="uk-table uk-table-divider">
+    <thead>
+        <tr>
+            <th>Nama Situs</th>
+            <th>Server</th>
+        </tr>
+    </thead>
+    <tbody>
+       {% for item in site.data.settings.bosedotwc %}  
+        <tr>
+            <td>{{ item.title }}</td>
+            <td>{{ item.server }}</td>
+        </tr>
+      {% else %}
+      {% if page.locale %}<p>{{ site.data.locales[page.locale].page.nodata }}{% else %}{{ site.data.settings.page.nodata }}</p>{% endif %} 
+      {% endfor %}
+  </tbody>
+</table>
+    </li>
+    <li>
+     <h4>Game Providers Yang Di Blacklist</h4> 
+     <p><a href="https://l154gamer.github.io/gameart/">GameArt</a> saat ini masuk daftar hitam di Bigwinboard. <a href="https://www.bigwinboard.com/gameart/" rel="nofollow" target="_blank">Klik disini untuk mengetahui alasannya</a>.</p>
+    </li>
+</ul>
+</div>

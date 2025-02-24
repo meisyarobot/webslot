@@ -1,0 +1,36 @@
+---
+layout: default
+title: Donasi
+permalink: /donation/
+locale: id
+uid: donation
+---
+<p>{{ site.data.locales[page.locale].donate }}</p>
+<div class="uk-overflow-auto">
+ <table id="datatable" class="uk-table uk-table-divider uk-table-small display">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Amount (IDR)</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in site.data.donation.donation %}
+            <tr>
+                <td>
+                    {{ item.date }}                
+                </td>
+                <td>
+                    {{ item.receive }}
+                </td>
+                <td>
+                    <div uk-lightbox>
+                      <a class="uk-button uk-button-danger uk-button-small" href="{{ site.url }}{{ item.img }}">Lihat</a>
+                    </div>
+                </td>                
+            </tr>
+        {% endfor %}
+        </tbody>
+ </table>
+</div>

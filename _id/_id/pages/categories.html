@@ -1,0 +1,45 @@
+---
+layout: single
+title: Kategori
+permalink: /categories/
+locale: id
+uid: categories
+---
+
+<div uk-grid><!-- grids -->
+
+{% for item in site.data.locales[page.locale].byprovider %}  
+<div><!-- grid div -->
+ <div class="uk-card uk-card-default uk-card-body uk-remove-top uk-border-rounded"><!-- card -->
+
+  <!-- clearfix -->
+  <div class="uk-clearfix">
+   <div class="uk-float-left">
+    <p class="uk-text-bold uk-text-small">
+     {{ item.title }} 
+    </p><!-- card title --> 
+   </div>
+   <div class="uk-float-right">
+    <a href="{{ item.url | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">{{ site.data.locales[page.locale].page.view_all }} <span uk-icon="icon: arrow-right"></span></a>
+   </div>
+  </div>
+  <!-- /clearfix -->          
+         
+  <!-- begin content -->
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+    <ul class="uk-slider-items uk-grid">
+      {% for item in item.images %}
+        <li style="margin: 0px !important; padding: 0px !important" class="uk-width-1-2">
+            <div class="uk-panel uk-remove-margin" data-ride="carousel">
+                <img class="uk-border-rounded" src="{{ item.img }}" width="150" height="80" alt="{{ item.title }}">
+            </div>
+        </li>
+       {% endfor %}
+    </ul>
+  </div>                     
+  <!-- /End content -->                                                                 
+ </div><!-- /card -->
+</div><!-- /grid div -->
+{% endfor %}
+ 
+</div>
