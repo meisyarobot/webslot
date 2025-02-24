@@ -1,0 +1,43 @@
+<div class="uk-child-width-expand@s" uk-height-match="target: SELECTOR" uk-grid><!-- grids -->
+
+{% for item in site.data.locales[page.locale].feature %} 
+<div><!-- grid div -->
+ <div class="uk-card uk-card-default uk-card-body uk-border-rounded"><!-- card -->
+  <!-- clearfix -->
+  <div class="uk-clearfix">
+   <div class="uk-float-left">
+     <p class="as_provider_icon uk-text-bold uk-text-uppercase"><span class="icon-pragmatic"></span> {{ item.title }}</p><!-- card title --> 
+   </div>
+   <div class="uk-float-right">
+     <a href="{{ item.url | relative_url }}" class="uk-button uk-button-text uk-text-capitalize">{{ site.data.locales[page.locale].page.view_all }} <span uk-icon="icon: arrow-right"></span></a>
+    </div>
+   </div>
+   <!-- /clearfix -->                 
+   <div class="uk-grid-small" uk-grid><!-- begin content grids -->
+   <!-- begin content imgs -->
+   {% for item in item.images %} 
+   <div class="uk-width-1-2">
+    <a href="{{ item.url | relative_url }}">
+     <img class="uk-border-rounded" src="{{ site.url }}{{ item.img }}" width="1800" height="1200" alt="{{ item.title }}">
+    </a>
+   </div>
+   {% endfor %} 
+   <!-- /End content imgs -->
+  </div><!-- /End content grids -->
+ </div><!-- /card -->
+</div><!-- /grid div -->
+{% endfor %} 
+
+</div><!-- /Grids -->
+
+<div class="uk-text-center uk-margin">
+ <a href="{% if page.locale == 'en' %}categories{% elsif page.locale == 'id' %}categories{% endif %}" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">{{ site.data.locales[page.locale].page.view_all }}</a>
+</div> 
+
+<div class="uk-position-relative uk-light uk-margin uk-text-center">
+ {% for item in site.data.locales[page.locale].footer %}
+  <a href="{{ item.url }}">
+   <img src="{{ site.url}}{{ item.img }}" alt="{{ item.title }}" width="120px" height="120px">
+  </a>
+ {% endfor %} 
+</div>

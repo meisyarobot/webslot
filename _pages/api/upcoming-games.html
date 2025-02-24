@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /api/upcoming-games
+---
+{
+  "data": [
+   {% for data in site.data.upcoming-slots %}
+    {
+      "title": "{{ data.title }}",
+      "img": "{{ data.img }}",
+      "developer": "{{ data.provider }}"
+    }
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]  
+}

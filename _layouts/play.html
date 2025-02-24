@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html data-theme="light">
+ <head>
+  <title>{{page.title}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.23/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/ng-table@2.0.2/bundles/ng-table.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/mainstyle.css' | absolute_url }}">        
+ </head>
+<body>
+   {{ content }}
+ {% include javascript.html %}
+</body>
+</html>

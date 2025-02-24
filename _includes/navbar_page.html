@@ -1,0 +1,44 @@
+<nav class="uk-fixed-navigation uk-navbar-transparent uk-navbar-container" uk-navbar>
+    <div class="nav-overlay uk-navbar-left">        
+    <a uk-icon="icon: arrow-left; ratio: 1" class="uk-navbar-toggle" href="{{ "categories" | relative_url }}"></a>
+        <div uk-form-custom="target: > * > span:first-child">
+            <select aria-label="Custom controls">
+             {% for item in site.data.locales[page.locale].byprovider %}
+             {% assign class = nil %}
+             {% if page.url contains item.url %}
+             {% assign class = 'selected' %}
+             {% endif %}
+               <option value="{{ site.url }}{{ item.url }}" {{ class }}>{{ item.title }}</option>
+             {% endfor %}
+            </select>
+            <button class="uk-button uk-button-link" tabindex="-1">
+                <span></span>
+                <span uk-icon="icon: chevron-down"></span>
+            </button>
+        </div>        
+        <ul class="uk-navbar-nav hide">
+            <li>{{ page.title }}</li>
+        </ul>
+    </div>
+    <div class="nav-overlay uk-navbar-right">
+    {% if page.active == "redtiger" %}
+        <a class="uk-navbar-toggle uk-navbar-toggle-animate" href uk-navbar-toggle-icon></a>
+          <div class="uk-dropbar uk-display-flex" uk-drop="stretch: y; stretch: x; target: !.uk-navbar-container; animation: reveal-top; animate-out: true; duration: 700" uk-overflow-auto>
+            <h4>{{ site.data.locales[page.locale].page.my_favorites }}</h4>
+            <div class="cart"></div>
+            <hr/>           
+            <p>{{ site.data.locales[page.locale].info }}</p>                           
+        </div>      
+     {% endif %}   
+        <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+        <button uk-icon="icon: settings; ratio: 1" class="uk-button uk-button-default uk-padding-remove border-0" uk-toggle="target: #offcanvas-flip"></button>
+    </div>
+    <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+        <div class="uk-navbar-item uk-width-expand">
+            <form class="uk-search uk-search-navbar uk-width-1-1 uk-text-small">
+                <input id="myfilter" class="uk-search-input" type="search" placeholder="{{ site.data.locales[page.locale].page.search }} {{ page.title }}" aria-label="Search" autofocus>
+            </form>
+        </div>
+        <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+    </div>
+</nav>

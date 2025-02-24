@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.locale }}" data-theme="light">
+<head>
+ {% include meta.html %}
+</head>
+<body data-uk-filter=".js-filter">
+ {% include navbar.html %}
+
+ <div class="uk-section uk-margin-xlarge-top"><!-- Section -->
+  <div class="uk-container"><!-- Container -->
+   <h3 class="uk-heading-line uk-text-center"><span>{{ page.title }}</span></h3>
+   {% include filter.html %}
+   {% include settings.html %}
+   {{ content }}
+  </div>
+ </div>
+ {% include sidenav.html %}
+ {% include modal.html %}
+ {% include javascript.html %}
+</body>
+</html>

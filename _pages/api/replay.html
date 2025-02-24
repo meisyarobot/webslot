@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /api/replay
+---
+{
+  "data": [
+   {% for data in site.data.win.replay %}
+    {
+      "date": "{{ data.date }}",
+      "title": "{{ data.title }}",
+      "gid": "{{ data.gid }}",
+      "bet": "{{ data.bet }}",
+      "img": "{{ data.img }}",
+      "bo": "{{ data.bo }}",
+      "jp": "{{ data.jp }}"
+    }
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]  
+}

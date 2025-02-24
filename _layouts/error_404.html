@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html data-theme="light">
+{% include head.html %}
+<body>
+{% include navbar.html %}
+<div class="uk-section uk-margin-xlarge-top"><!-- Section -->
+ <div class="uk-container"><!-- Container -->
+  <h3 class="uk-heading-line uk-text-center"><span>{{ page.title }}</span></h3>
+  {{ content }}
+ </div>
+</div>
+{% include sidenav.html %} 
+{% include javascript.html %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+ <head>
+  <title>{{ site.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#333333"> <meta name="supported-formats" content="websites"> 
+  <meta name="page-locale" content="id-ID"> 
+  <meta name="language" content="id"> 
+  <meta name="geo.country" content="id"> 
+  <meta name="geo.placename" content="Indonesia">
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="{% if page.url =='/' %}{{ site.url }}{% else %}{{ page.url | relative_url }}{% endif %}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+  <meta name="description" content="Mainkan slot demo gratis tanpa iklan, tanpa deposit atau memakai uang asli."> 
+  <meta name="keywords" content="demo slot, slot demo, demo, slot, demo slot pragmatic, demo slot gratis, akun slot demo, slot demo gratis indonesia, indonesia, asia, game, games, slot machine, fruit machine"> 
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.23/dist/css/uikit.min.css" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
+  <script>
+    var webpMachine = new webpHero.WebpMachine()
+    webpMachine.polyfillDocument()
+  </script>
+ </head>

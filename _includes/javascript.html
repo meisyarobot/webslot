@@ -1,0 +1,423 @@
+<!-- Scripts -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.23/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.23/dist/js/uikit-icons.min.js"></script>     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.2/js/core/modal.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+<script src="https://l154gamer.github.io/assets/js/app.js"></script>
+<script>
+function showModal()
+{
+  $('#modal').show();
+}
+function hideModal()
+{
+  $('#modal').hide();
+}
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#grid').click(function(event) {
+    event.preventDefault()
+    $('.bc').addClass('grid')
+    $('.bc').removeClass('list')
+    localStorage.setItem('.bc', 'grid');
+  });
+  $('#list').click(function(event){
+    event.preventDefault();
+    $('.bc').addClass('list')
+    $('.bc').removeClass('grid')
+    localStorage.setItem('.bc', 'list')
+  })
+  let itemClass = localStorage.getItem('.bc')
+  $('.bc').addClass(itemClass)
+});
+</script>    
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const inputEl = document.getElementById('myfilter');
+    const tags = Array.from(document.querySelectorAll('.uk-card'));
+
+    inputEl.addEventListener('keyup', () => {
+        const value = inputEl.value;
+
+        tags.forEach(tag => {
+            if (tag.textContent.includes(value)) {
+                tag.parentNode.style.display = 'block'
+            } else {
+                tag.parentNode.style.display = 'none'
+            }
+        })
+    })
+})    
+</script>
+<script>
+  window.addEventListener('resize', (event) => {
+    window.defaultMinimalHeight = window.innerHeight;
+    document.querySelector('.game-fallback-container').style.height = window.innerHeight + 'px';
+  });
+  window.addEventListener('load', (event) => {
+    document.querySelector('.game-fallback-container').style.height = window.innerHeight + 'px';
+    window.defaultMinimalHeight = window.innerHeight;
+
+    document.addEventListener("touchmove", ScrollStart, false);
+    document.addEventListener("scroll", Scroll, false);
+
+    function ScrollStart() {
+      if (window.currentHeight !== window.innerHeight) {
+        window.currentHeight = window.innerHeight;
+        document.querySelector('.game-fallback-container').style.height = (window.innerHeight < window.defaultMinimalHeight) ? window.defaultMinimalHeight + 'px' : window.innerHeight + 'px';
+      }
+    }
+
+    function Scroll() {
+      if (window.currentHeight !== window.innerHeight) {
+        window.currentHeight = window.innerHeight;
+        document.querySelector('.game-fallback-container').style.height = (window.innerHeight < window.defaultMinimalHeight) ? window.defaultMinimalHeight + 'px' : window.innerHeight + 'px';
+      }
+    }
+
+    document.querySelector('.game-fallback-container').style.height = window.innerHeight + 'px';
+  })
+  </script>
+<script>
+const storageKey = 'theme-preference'
+
+const onClick = () => {
+  // flip current value
+  theme.value = theme.value === 'light'
+    ? 'dark'
+    : 'light'
+
+  setPreference()
+}
+
+const getColorPreference = () => {
+  if (localStorage.getItem(storageKey))
+    return localStorage.getItem(storageKey)
+  else
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light'
+}
+
+const setPreference = () => {
+  localStorage.setItem(storageKey, theme.value)
+  reflectPreference()
+}
+
+const reflectPreference = () => {
+  document.firstElementChild
+    .setAttribute('data-theme', theme.value)
+
+  document
+    .querySelector('#theme-toggle')
+    ?.setAttribute('aria-label', theme.value)
+}
+
+const theme = {
+  value: getColorPreference(),
+}
+
+// set early so no page flashes / CSS is made aware
+reflectPreference()
+
+window.onload = () => {
+  // set on load so screen readers can see latest value on the button
+  reflectPreference()
+
+  // now this script can find and listen for clicks on the control
+  document
+    .querySelector('#theme-toggle')
+    .addEventListener('click', onClick)
+}
+
+// sync with system changes
+window
+  .matchMedia('(prefers-color-scheme: dark)')
+  .addEventListener('change', ({matches:isDark}) => {
+    theme.value = isDark ? 'dark' : 'light'
+    setPreference()
+  })  
+</script>
+<script>
+$('select').change(function(){
+    var url = $(this).val();
+    window.location = url;
+});
+</script>
+<script>
+function openLink(radio){
+ window.open(radio.value,'_self');
+}
+</script>
+<script>
+const pullToRefresh = document.querySelector('.pull-to-refresh');
+let touchstartY = 0;
+document.addEventListener('touchstart', e => {
+  touchstartY = e.touches[0].clientY;
+});
+document.addEventListener('touchmove', e => {
+  const touchY = e.touches[0].clientY;
+  const touchDiff = touchY - touchstartY;
+  if (touchDiff > 0 && window.scrollY === 0) {
+    pullToRefresh.classList.add('visible');
+    e.preventDefault();
+  }
+});
+document.addEventListener('touchend', e => {
+  if (pullToRefresh.classList.contains('visible')) {
+    pullToRefresh.classList.remove('visible');
+    location.reload();
+  }
+}); 
+</script>
+    <script>
+        $(function() {
+            var increment = 20;
+            var startFilter = 0;
+            var endFilter = increment;
+            var $this = $('.items');
+            var elementLength = $this.find('.bc').length;
+            $('.listLength').text(elementLength);
+
+            if (elementLength > 2) {
+                $('.buttonToogle').show();
+            }
+            $('.items .bc').slice(startFilter, endFilter).addClass('shown');
+            $('.shownLength').text(endFilter);
+            $('.items .bc').not('.shown').hide();
+            $('.buttonToogle .showMore').on('click', function() {
+                if (elementLength > endFilter) {
+                    startFilter += increment;
+                    endFilter += increment;
+                    $('.items .bc').slice(startFilter, endFilter).not('.shown').addClass('shown').toggle(500);
+                    $('.shownLength').text((endFilter > elementLength) ? elementLength : endFilter);
+                    if (elementLength <= endFilter) {
+                        $(this).remove();
+                    }
+                }
+
+            });
+        });
+    </script>
+<script>
+//Favorites
+const favoriteButtonAttr = 'data-add-to-favorite';
+const isFavorite = 'data-is-favorite';
+const listSelector = '[data-my-favorites]';
+const storageName = 'favoritesList';
+
+class FavoritesList {
+  constructor () {
+    this.storageName = storageName;
+    this.list = this.initList();
+  }
+  
+  initList () {
+    if (window.localStorage.getItem(this.storageName)) { 
+      // todo: repetitive parse?
+      const list = JSON.parse(window.localStorage.getItem(this.storageName));
+      updateHtmlList(list);
+      return list;
+    } else {   
+      return [];
+    }
+  }
+  
+  initButton(button) {
+    const id = String(button.getAttribute(favoriteButtonAttr));
+    
+    button.addEventListener('click', (event) => {
+      const button = event.target;
+      !inArray(id, this.list) ? this.list.push(id) : removeFromArray(id, this.list);
+      setState(id, this.list);
+      this.updateList();
+    })
+    
+    function setState (id, list) {
+      return button.toggleAttribute(isFavorite, inArray(id, list));
+    }
+    
+    setState(id, this.list);
+    return button;
+  }
+  
+  updateList() {
+    setLocalStorage(this.storageName, this.list);
+    updateHtmlList(this.list); 
+  }
+  
+  initClearButton (button) {
+    console.log(button)
+    button.addEventListener('click', () =>  {
+      window.localStorage.removeItem(this.storageName)
+      updateHtmlList([]); 
+      //@todo: sync active button state in article list with empty list
+    })
+  }
+}
+
+function updateHtmlList(list) {
+  if(list.length > 0) {
+    // lastest favorites on top & don't modify original list;
+    const newList = list.slice(0).reverse();
+    favoritesHTMLElement.innerHTML = '';
+    listItems = document.createElement('ul');
+    newList.forEach( item => {
+      let htmlLi = document.createElement('li');
+      htmlLi.innerHTML = '<img src="'+item.img+'"/><br/><a href="'+item.link+'" class="uk-link">'+item+'</a>';
+      favoritesHTMLElement.appendChild(htmlLi);
+    });
+  } else {
+    favoritesHTMLElement.innerHTML = '';
+  }
+}  
+
+function inArray(element, array) {
+  return array.indexOf(element) != -1;
+}
+
+function removeFromArray(element, array) {
+  array.splice(array.indexOf(element), 1); 
+}
+
+function setLocalStorage(key, value) {
+  window.localStorage.setItem(key, JSON.stringify(value));
+}
+const buttons = document.querySelectorAll(`[${favoriteButtonAttr}]`);
+const favoritesHTMLElement = document.querySelector(listSelector);
+const emptyFavoritesButton = document.querySelector('.clear_favorites');
+let favorites = new FavoritesList();  
+buttons.forEach( button => favorites.initButton(button));
+favorites.initClearButton(emptyFavoritesButton);  
+</script>
+<script>
+// Replace .uk-subnav with your switcher element
+const switcherEl = document.querySelector('.uk-subnav');
+const anchors = switcherEl.querySelectorAll('li > a');
+const switcher = UIkit.switcher(switcherEl);
+
+// Show content corresponds to location hash
+let active = 0;
+while(anchors[active]) {  
+  if(anchors[active].hash === window.location.hash) {
+    switcher.show(active);    
+    break;
+  }
+  active++;
+}
+// Update location hash in address bar.
+switcherEl.addEventListener('click', (event) => window.location.hash = event.target.hash.substr(1));  
+</script>
+{% if page.active == "redtiger" %}
+<script>
+"use strict";
+
+const addProductToCart = product => { 
+  // add the product to the cart 
+  cartDOM.insertAdjacentHTML('beforeend', `         
+                <div class="uk-child-width-1-2 cart__item uk-margin" uk-grid >    
+                   <div><img class="uk-border-rounded cart__item__image" width="100px" src="${product.image}" alt=${product.name}/><br/><h4 class="uk-text-bold uk-text-small uk-margin-remove cart__item__name">${product.name}</h4></div>                  
+                   <div>
+                    <div class="uk-child-width-1-2" uk-grid>
+                       <div><p class="uk-text-small">${product.provider}</p></div>
+                       <div><a class="uk-button uk-button-default uk-button-small" target="modal_iframe" onClick="showModal()" href="${product.url}">Play</a><br/><br/><button class="uk-button uk-button-danger uk-button-small" data-action="REMOVE_ITEM" uk-icon="trash"></button></div>
+                    </div>
+                   </div>
+                 </div>
+           `);
+};
+
+
+const removeItem = (product, cartItemDOM, addToCartButtonDOM) => {
+  // Now decrease the quantity in array and update DOM 
+  cartItemDOM.classList.add('cart__item--removed');
+  setTimeout(() => {
+    //remove this item 
+    cartItemDOM.remove();
+  }, 250);
+  cart = cart.filter(cartItem => {
+    return cartItem.name != product.name;
+  });
+  localStorage.setItem('cart', JSON.stringify(cart));
+  addToCartButtonDOM.insertAdjacentHTML = ('<button style="top: 5px;right:5px;" type="button"  class="game__btn uk-icon-button uk-position-absolute" uk-icon="heart"></button>');
+  addToCartButtonDOM.disabled = false;
+};
+
+const handleActionButtons = (addToCartButtonDOM, product) =>
+{
+  addToCartButtonDOM.insertAdjacentHTML = ('<button style="top: 5px;right:5px;" type="button"  id="game__btn" class="uk-icon-button uk-position-absolute" uk-icon="check"></button>');
+  addToCartButtonDOM.disabled = true;
+  //Attach the event listener to the buttons 
+  const cartItemsDOM = cartDOM.querySelectorAll('.cart__item');
+  cartItemsDOM.forEach(cartItemDOM => {
+    if (cartItemDOM.querySelector('.cart__item__name').innerText === product.name)
+    {
+            cartItemDOM.querySelector('[data-action="REMOVE_ITEM"]').addEventListener('click', () => {
+        removeItem(product, cartItemDOM, addToCartButtonDOM);
+
+      }); //remove item 
+
+    }
+  });
+
+};
+
+
+//get the cart 
+const cartDOM = document.querySelector('.cart');
+//Get the product DOM
+const addToCartButtonsDOM = document.querySelectorAll('[data-action="ADD_TO_FAVE"]');
+//Create cart array 
+let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+////local storage 
+if (cart.length > 0) {
+  cart.forEach(cartItem => {
+    const product = cartItem;
+
+    addProductToCart(product); // // add the product to the cart 
+
+    addToCartButtonsDOM.forEach(addToCartButtonDOM => {
+      const productDOM = addToCartButtonDOM.parentNode;
+
+      if (productDOM.querySelector('.uk-text-bold').innerText === product.name) {
+        handleActionButtons(addToCartButtonDOM, product);
+      }
+    });
+  });
+
+
+} ////local storage 
+
+
+addToCartButtonsDOM.forEach(addToCartButtonDOM => {
+  addToCartButtonDOM.addEventListener('click', () => {
+    const productDOM = addToCartButtonDOM.parentNode;
+    const product = {
+      image: productDOM.querySelector('#game__img').getAttribute('src'),
+      url: productDOM.querySelector('#game__url').getAttribute('href'),
+      name: productDOM.querySelector('#game__title').innerText,
+      provider: productDOM.querySelector('#game__provider').innerText,
+      };
+
+    //https://www.linkedin.com/pulse/javascript-filter-function-examples-rafael-mariano-de-oliveira
+    if (!(cart.filter(cartItem => cartItem.name === product.name).length > 0))
+    {
+      addProductToCart(product); // add the product to the cart 
+      cart.push(product);
+      localStorage.setItem('cart', JSON.stringify(cart));
+      handleActionButtons(addToCartButtonDOM, product);
+    }
+
+  });
+
+});    
+</script>
+
+<script>
+UIkit.icon.add('navbar-toggle-icon','<span uk-icon="heart"></span>');
+</script>
+{% endif %}   
+<!-- /Scripts -->

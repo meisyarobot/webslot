@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ page.locale }}" data-theme="light">
+<head>
+ {% include meta.html %}
+</head>
+<body data-uk-filter=".js-filter">
+ <div class="pull-to-refresh uk-text-center"><div uk-spinner></div></div>
+ {% include settings.html %}
+ {% include navbar_page.html %}
+ <div class="uk-section uk-margin-xlarge-top"><!-- Section -->
+  <div class="uk-container items"><!-- Container -->
+   {{ content }}
+   <div class="uk-text-center uk-margin-top">
+    <p class="lead uk-text-small"><b class="listLength"></b> {{ site.data.locales[page.locale].page.games_found }}</p>
+    <div class="buttonToogle" style="display: none;"><a href="javascript:;" class="uk-button uk-button-default showMore">+ {{ site.data.locales[page.locale].page.show_more }}</a></div>
+   </div> 
+  </div>
+ </div>
+ {% include sidenav.html %}
+ {% include modal.html %}
+ {% include javascript.html %}
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+layout: lobby
+title: Lobby
+active: lobby
+id: lobby
+---
+<table id="games" class="uk-table">
+  <th>Title</th>
+  <th>Available</th>
+</table>
+
+
+
+
+
+
+---
+layout: lobby
+title: Lobby
+active: lobby
+id: lobby
+---
+<table id="games" class="uk-table">
+  <th>Title</th>
+  <th>Available</th>
+</table>
+

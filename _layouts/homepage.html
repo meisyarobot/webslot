@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.locale }}" data-theme="light">
+<head>
+ {% include meta.html %}
+</head>
+<body>
+{% include navbar.html %}
+<div class="pull-to-refresh"><div uk-spinner></div></div>
+<div class="uk-section-large">
+ <div class="uk-container uk-margin-top">
+  {% include widgets.html %}
+ </div>
+</div>
+{% include sidenav.html %}
+{% include javascript.html %}
+</body>
+</html>

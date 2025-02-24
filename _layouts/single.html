@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.locale }}" data-theme="light">
+{% include head.html %}
+<body>
+<div class="pull-to-refresh uk-text-center"><div uk-spinner></div></div> 
+{% include navbar.html %}
+<div class="uk-section-large">
+ <div class="uk-container uk-margin-top">
+  {{ content }}
+ </div>
+</div>
+{% include sidenav.html %} 
+{% include javascript.html %}
+<script src="https://l154gamer.github.io/assets/js/app.js"></script> 
+</body>
+</html>

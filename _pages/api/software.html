@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /api/software
+---
+{
+  "data": [
+   {% for data in site.data.software %}
+    {
+      "title": "{{ data.title }}",
+      "img": "{{ data.img }}",
+      "url": "{{ data.url }}",
+      "available": "{{ data.available }}"
+    }
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]  
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+ {% include meta.html %}
+</head>
+<bod>
+<!-- Navbar --> 
+<nav class="uk-navbar-container uk-navbar-transparent uk-fixed-navigation">
+    <div uk-navbar>
+     <div class="uk-navbar-left">   
+      {% if page.active == "hacksaw" %}
+       <a href="{{ "lobby" | relative_url }}" uk-icon="icon: arrow-left"></a>
+       {% endif %}
+     </div>
+     <div class="uk-navbar-center">
+      <a class="uk-logo uk-navbar-item uk-text-muted" href="{{ relative_url }}">
+       {{ page.title }}
+      </a>  
+     </div>
+     <div class="uk-navbar-right">    
+       <a href="{{ relative_url }}" uk-icon="icon:refresh"></a>  
+       <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
+      </div>
+     </div>
+   </nav>
+  <!-- /Navbar -->
+ <div class="uk-section uk-margin-xlarge-top"><!-- Section -->
+  <div class="uk-container"><!-- Container -->
+   {{ content }}
+  </div><!-- /Container -->
+ </div>
+{% include modal.html %}
+{% include javascript.html %}
+<script src="https://l154gamer.github.io/assets/js/app.js"></script>
+</body>
+</html>

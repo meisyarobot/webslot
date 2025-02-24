@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /api/pragmaticplay
+---
+{
+  "data": [
+   {% for data in site.data.games.pragmaticplay.data %}
+    {
+      "title": "{{ data.title }}",
+      "gameID": "{{ data.symbol }}",
+      "img": "{{ data.img }}"
+    }
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]  
+}
