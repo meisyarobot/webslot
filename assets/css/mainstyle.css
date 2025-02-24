@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import "https://unpkg.com/open-props/easings.min.css";
+@import url('https://fonts.cdnfonts.com/css/cafe-francoise');
+@import url('https://fonts.cdnfonts.com/css/baroneys');
+
+@font-face {
+  font-family: 'asiasigmaprovider';
+  src:  url('https:/l154gamer.github.io/assets/css/asiasigmaprovider.eot?s37il6');
+  src:  url('https:/l154gamer.github.io/assets/css/as_provider_icon.eot?s37il6#iefix') format('embedded-opentype'),
+    url('https:/l154gamer.github.io/assets/css/as_provider_icon.ttf?s37il6') format('truetype'),
+    url('https:/l154gamer.github.io/assets/css/as_provider_icon.woff?s37il6') format('woff'),
+    url('https:/l154gamer.github.io/assets/css/as_provider_icon.svg?s37il6#as_provider_icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="provider-"], [class*=" provider-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'asiasigmaprovider' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.provider-afb:before {
+  content: "\e91f";
+}
+.provider-pg_soft:before {
+  content: "\e900";
+}
+.provider-spadegaming:before {
+  content: "\e901";
+}
+.provider-g_poker:before {
+  content: "\e902";
+}
+.provider-allbet:before {
+  content: "\e903";
+}
+.provider-asiasigma:before {
+  content: "\e904";
+}
+.provider-asiasigma4d:before {
+  content: "\e905";
+}
+.provider-biggaming:before {
+  content: "\e906";
+}
+.provider-cq9:before {
+  content: "\e907";
+}
+.provider-evolutiongaming:before {
+  content: "\e908";
+}
+.provider-flowgaming:before {
+  content: "\e909";
+}
+.provider-gamatron:before {
+  content: "\e90a";
+}
+.provider-greendragon:before {
+  content: "\e90b";
+}
+.provider-habanero:before {
+  content: "\e90c";
+}
+.provider-idn:before {
+  content: "\e90d";
+}
+.provider-ion:before {
+  content: "\e90e";
+}
+.provider-jdb:before {
+  content: "\e90f";
+}
+.provider-joker:before {
+  content: "\e910";
+}
+.provider-kingmaker:before {
+  content: "\e911";
+}
+.provider-ks_gaming:before {
+  content: "\e912";
+}
+.provider-microgaming:before {
+  content: "\e913";
+}
+.provider-onegame:before {
+  content: "\e914";
+}
+.provider-pragmatic:before {
+  content: "\e915";
+}
+.provider-realtimegaming:before {
+  content: "\e916";
+}
+.provider-redtiger:before {
+  content: "\e917";
+}
+.provider-saba:before {
+  content: "\e918";
+}
+.provider-sbobet:before {
+  content: "\e919";
+}
+.provider-sexygaming:before {
+  content: "\e91a";
+}
+.provider-sv_cockfighting:before {
+  content: "\e91b";
+}
+.provider-wmcasino:before {
+  content: "\e91c";
+}
+.provider-worldmatch:before {
+  content: "\e91d";
+}
+.provider-yggdrasil:before {
+  content: "\e91e";
+}
+
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+html {
+  height: -webkit-fill-available;
+}   
+body {
+    height: auto;
+    width: auto; 
+    min-height: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+} html{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+*,:after,:before{-moz-box-sizing:inherit;-webkit-box-sizing:inherit;box-sizing:inherit}
+html{font:16px/1.5 sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+
+.uk-fixed-navigation {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 998;
+}
+.branded {
+ font-size: 280% !important;	
+ font-family: 'Baroneys', sans-serif;                                                                                                
+ font-weight: 500 !important;
+ color: var(--color-text) !important;
+}
+.logo {
+ font-family: 'BlackCasper', sans-serif;   
+ font-size: 150% !important;	
+}
+.uk-heading-line {
+ font-family: 'Café Françoise', sans-serif;  
+}
+.m60 {
+ margin-top: 60px;
+ margin-bottom: 80px !important;
+}
+.m130 {
+ margin-top: 130px;
+}
+.uk-offcanvas-bar {
+    height: auto;
+    width: 100% !important; 
+    margin: 0 auto;
+    min-height: 100%;
+    min-height: 100vh;
+    z-index: 1001 !important;
+}
+.sun-and-moon > :is(.moon, .sun, .sun-beams) {
+  transform-origin: center;
+}
+
+.sun-and-moon > :is(.moon, .sun) {
+  fill: var(--icon-fill);
+}
+
+.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
+  fill: var(--icon-fill-hover);
+}
+
+.sun-and-moon > .sun-beams {
+  stroke: var(--icon-fill);
+  stroke-width: 2px;
+}
+
+.theme-toggle:is(:hover, :focus-visible) .sun-and-moon > .sun-beams {
+  stroke: var(--icon-fill-hover);
+}
+
+[data-theme="dark"] .sun-and-moon > .sun {
+  transform: scale(1.75);
+}
+
+[data-theme="dark"] .sun-and-moon > .sun-beams {
+  opacity: 0;
+}
+
+[data-theme="dark"] .sun-and-moon > .moon > circle {
+  transform: translateX(-7px);
+}
+
+@supports (cx: 1) {
+  [data-theme="dark"] .sun-and-moon > .moon > circle {
+    cx: 17;
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sun-and-moon > .sun {
+    transition: transform .5s var(--ease-elastic-3);
+  }
+
+  .sun-and-moon > .sun-beams {
+    transition: transform .5s var(--ease-elastic-4), opacity .5s var(--ease-3);
+  }
+
+  .sun-and-moon .moon > circle {
+    transition: transform .25s var(--ease-out-5);
+  }
+
+  @supports (cx: 1) {
+    .sun-and-moon .moon > circle {
+      transition: cx .25s var(--ease-out-5);
+    }
+  }
+
+  [data-theme="dark"] .sun-and-moon > .sun {
+    transition-timing-function: var(--ease-3);
+    transition-duration: .25s;
+    transform: scale(1.75);
+  }
+
+  [data-theme="dark"] .sun-and-moon > .sun-beams {
+    transition-duration: .15s;
+    transform: rotateZ(-25deg);
+  }
+
+  [data-theme="dark"] .sun-and-moon > .moon > circle {
+    transition-duration: .5s;
+    transition-delay: .25s;
+  }
+}
+
+.theme-toggle {
+  --size: 1rem;
+  --icon-fill: hsl(0, 0%, 85%);
+  --icon-fill-hover: hsl(0, 0%, 85%);
+
+  background: none;
+  border: none;
+  padding: 0;
+
+  inline-size: var(--size);
+  block-size: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+
+  outline-offset: 5px;
+
+  & > svg {
+    inline-size: 100%;
+    block-size: 100%;
+    stroke-linecap: round;
+  }
+
+  @nest [data-theme="dark"] & {
+    --icon-fill: hsl(0, 0%, 85%);
+    --icon-fill-hover: hsl(0, 0%, 85%);
+  }
+
+  @media (hover: none) {
+    --size: 24px;
+  }
+}
+
+@custom-media --motionOK (prefers-reduced-motion: no-preference);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  block-size: 100%;
+  color-scheme: light;
+
+  &[data-theme="dark"] {
+    color-scheme: dark;
+
+    @supports not (color-scheme: dark) {
+      background: #37474f !important; 
+    }
+  }
+}
+
+html{
+    --bg: #37474f;
+    --color-heading: rgb(27, 168, 14); 
+    --color-text: #d9d9d9;
+    --bg-navbar: #37474f;
+    --bg-card: #263238;
+    --section: #546d78;
+}
+html[data-theme='dark'] {
+    --bg: #111;
+    --color-heading: #0077ff; 
+    --color-text: #d9d9d9;
+    --bg-navbar: #111;
+    --bg-card: #222;
+    --section: #424242;
+}
+html, body, .uk-section-primary { 
+    background-color: var(--bg) !important;
+    color: var(--color-text) !important;
+}
+.uk-section, .uk-section-primary {
+  margin-top: 80px !important
+}
+.uk-fixed-navigation, .uk-navbar{
+ padding: 0 10px !important;
+ z-index: 999 !important;
+}
+.uk-offcanvas-bar, .uk-navbar-dropdown, .uk-card-default, .uk-nav-default, .uk-navbar-container, .uk-container uk-container-expand{
+    background-color: var(--bg-navbar) !important;
+    color: var(--color-text) !important;
+}
+.uk-section, .uk-modal-dialog, .uk-modal-close-full {
+    background-color: var(--section) !important;
+    color: var(--color-text) !important;
+}
+.uk-section {
+    min-height: 100vh;
+}
+.uk-dropdown,.uk-card-default {
+    background-color: var(--bg-card) !important;
+    color: var(--color-text) !important;
+}
+.uk-accordion, .uk-accordion-title, .uk-subnav a, .uk-active, .uk-navbar-toggle, .uk-heading-line, .uk-offcanvas-bar a, .uk-navbar-dropdown-nav a {
+ color: var(--color-text) !important;   
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text) !important;   
+}
+.uk-navbar {
+  background-color: var(--bg-navbar);  
+}
+.branded, .uk-button, .uk-card-body, .uk-card-title{
+  color: var(--color-text) !important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--color-text) !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--color-text) !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--color-text) !important;
+}
+input, select, textarea {
+    color: var(--color-text) !important;
+}
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .branded {
+    display: none;
+  }
+}
+
+.uk-card {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}  
+
+.uk-section {
+ background: #f7f7f7;
+ border-top-left-radius: 30px;
+ border-top-right-radius: 30px;
+}
+.uk-button-group {
+ margin-bottom: 15px;
+}
+.bc.grid {
+  width: 50% important;
+  display: inline-block;
+}
+.bc.list {
+  width: 100% !important;	
+  display: block;
+}	
+.uk-card-body {
+ padding: 10px !important;
+}
+#modal, .uk-modal-full {
+ z-index: 9998 !important;
+}
+.uk-card-media-top img {
+ border: 6px solid transparent;
+ border-radius: 10px !important;    
+}
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    .game-fallback-container {
+      background: black;
+      position: fixed;
+      width: 100%;
+      color: #ffffff;  
+  }
+#modal {
+  background: black;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  color: #fff;  
+  display: none;
+}
+
+.game_disable, .disable {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.4;
+}
